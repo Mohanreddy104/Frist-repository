@@ -1,0 +1,227 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "open_Home_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "[/]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "get",
+              "args": [
+                "{url=http://www.newtours.demoaut.com/}"
+              ],
+              "result": "null",
+              "subLogs": [],
+              "duration": 2788
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "doLogin",
+      "args": [
+        "[${invalidSignin.data.username}, ${invalidSignin.data.password}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForPresent",
+          "args": [
+            "[signin.username.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "[id: b13b0a84-4472-4e6a-a7e4-cbe087a0d9ab]",
+              "subLogs": [],
+              "duration": 23
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest, signin.username.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "id: b13b0a84-4472-4e6a-a7e4-cbe087a0d9ab",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='userName']",
+                "{\"value\":[\"guest\"],\"id\":\"b13b0a84-4472-4e6a-a7e4-cbe087a0d9ab\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 47
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest123, signin.password.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='password'], using=xpath}"
+              ],
+              "result": "id: 4f40dc63-0fd5-47d6-ac4e-e19568b193e6",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='password']",
+                "{\"value\":[\"guest123\"],\"id\":\"4f40dc63-0fd5-47d6-ac4e-e19568b193e6\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 47
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signin.singin.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='login'], using=xpath}"
+              ],
+              "result": "id: 221aad36-19cf-4b87-853f-5798034bc527",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='login']",
+                "{\"id\":\"221aad36-19cf-4b87-853f-5798034bc527\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 2625
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifysuccess",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  Open the home page",
+      "type": "TestStepPass",
+      "duration": 6256,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "get '/'",
+          "type": "TestStepPass",
+          "duration": 6246,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When  user login with valid username 'guest' and valid password 'guest123'",
+      "type": "TestStepPass",
+      "duration": 2807,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'signin.username.text' to be present",
+          "type": "TestStepPass",
+          "duration": 37,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'guest' into 'signin.username.text'",
+          "type": "TestStepPass",
+          "duration": 64,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'guest123' into 'signin.password.text'",
+          "type": "TestStepPass",
+          "duration": 64,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'signin.singin.btn'",
+          "type": "TestStepPass",
+          "duration": 2640,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then  user Click on signin button",
+      "type": "TestStepPass",
+      "duration": 310,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "login successfully",
+          "type": "Info",
+          "screenshot": "../img/UserSuccessfullyClickOnLogoutButton_1ecyajuzcqbh94530.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

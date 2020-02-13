@@ -1,0 +1,19 @@
+<root>
+	<data>
+		<cardNumber>
+			<user>
+				<creditNumber>1234567891012131415</creditNumber>
+			</user>
+			<user>
+				<creditNumber>ABCDEFG@#$%12345</creditNumber>
+			</user>
+			<user>
+				<creditNumber>12345678910</creditNumber>
+			</user>
+			<user>
+				<creditNumber>1234567891011123</creditNumber>
+			</user>
+		</cardNumber>
+
+	</data>
+</root>

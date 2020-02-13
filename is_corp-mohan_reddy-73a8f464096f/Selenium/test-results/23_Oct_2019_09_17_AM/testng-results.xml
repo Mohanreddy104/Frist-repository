@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is in home page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When  enter user name 'guest' and password 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'logout.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'logout.password.text'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on signin button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'logout.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When enter all the data in find a flight page type 'roundtrip' and passengers '1' and DepartingFrom 'PORTLAND' and on '6' and Arrivingin 'New York' and return '11'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'roundtrip' into 'flight.roundtrip.rbtn'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '1' into 'flight.passengers.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'PORTLAND' into 'flight.departing.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '6' into 'flight.formday.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'New York' into 'flight.arriving.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '11' into 'flight.returningday.text'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click continue button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'flight.findflight.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on reserveflight button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'flight.reserveflights.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And  click on secureparchase button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'bookingflight.secureparchase.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify user is entering all the values successfully</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'bookinglight.backtoflights.btn' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //img[@src='/images/forms/backtoflights.gif'] present : Actual By.xpath: //img[@src='/images/forms/backtoflights.gif'] present <a href="../img/UserIsAbleToEnterAllTheDataOnFindAFlightPageSuccessfully_7n8edmbih69b9379.png" target="_blank">[View Screenshot]</a> </div></div><div  class="pass"><span class="pass-label">P </span>user is  able to enter the all the data in flight finder page <a href="../img/UserIsAbleToEnterAllTheDataOnFindAFlightPageSuccessfully_1rzko2ixxwfon9380.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF BDD" duration-ms="43536" started-at="2019-10-23T09:17:35Z" finished-at="2019-10-23T09:18:19Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="43536" started-at="2019-10-23T09:17:35Z" finished-at="2019-10-23T09:18:19Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="setupSuit" is-config="true" duration-ms="28" started-at="2019-10-23T14:47:35Z" finished-at="2019-10-23T14:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="setupTest" is-config="true" duration-ms="2" started-at="2019-10-23T14:47:35Z" finished-at="2019-10-23T14:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="setup" is-config="true" duration-ms="0" started-at="2019-10-23T14:47:35Z" finished-at="2019-10-23T14:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="setupMethod" is-config="true" duration-ms="1" started-at="2019-10-23T14:47:35Z" finished-at="2019-10-23T14:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="user is able to enter all the data on find a flight page successfully( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="user is able to enter all the data on find a flight page successfully" duration-ms="43293" started-at="2019-10-23T14:47:35Z" description="enter data on find a flight page " finished-at="2019-10-23T14:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{file.encoding.pkg=sun.io, file.encoding=Cp1252, file.separator=\, user.country=US, user.script=null, user.dir=D:\OnbordingProject\Project\Selenium, user.variant=null, user.home=C:\Users\mohanreddy.p, user.timezone=Asia/Calcutta, user.name=Mohan.Reddy, user.language=en, selenium.screenshots.relative.path=../img, selenium.screenshots.dir=test-results/23_Oct_2019_09_17_AM/img, basedir=D:\OnbordingProject\Project\Selenium, os.arch=amd64, os.name=Windows 10, os.version=10.0, surefire.real.class.path=D:\OnbordingProject\Project\Selenium\test-results\surefire\surefirebooter1150438415475658499.jar, surefire.test.class.path=D:\OnbordingProject\Project\Selenium\target\test-classes, line.separator=
+, log4j.configuration=file:///D:\OnbordingProject\Project\Selenium/resources/log4j.properties, org.uncommons.reportng.xml-dialect=testng, org.uncommons.reportng.escape-output=false, json.report.dir=test-results/23_Oct_2019_09_17_AM/json, json.report.root.dir=test-results, test.results.dir=test-results/23_Oct_2019_09_17_AM/html, awt.toolkit=sun.awt.windows.WToolkit, webdriver.chrome.driver=./resources/drivers/chromedriver.exe, outputDir=test-results/23_Oct_2019_09_17_AM, localRepository=C:\Users\mohanreddy.p\.m2\repository, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is in home page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When  enter user name 'guest' and password 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'logout.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'logout.password.text'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on signin button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'logout.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When enter all the data in find a flight page type 'roundtrip' and passengers '1' and DepartingFrom 'PORTLAND' and on '6' and Arrivingin 'New York' and return '11'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'roundtrip' into 'flight.roundtrip.rbtn'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '1' into 'flight.passengers.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'PORTLAND' into 'flight.departing.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '6' into 'flight.formday.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'New York' into 'flight.arriving.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '11' into 'flight.returningday.text'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click continue button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'flight.findflight.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on reserveflight button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'flight.reserveflights.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And  click on secureparchase button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'bookingflight.secureparchase.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify user is entering all the values successfully</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'bookinglight.backtoflights.btn' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //img[@src='/images/forms/backtoflights.gif'] present : Actual By.xpath: //img[@src='/images/forms/backtoflights.gif'] present <a href="../img/UserIsAbleToEnterAllTheDataOnFindAFlightPageSuccessfully_7n8edmbih69b9379.png" target="_blank">[View Screenshot]</a> </div></div><div  class="pass"><span class="pass-label">P </span>user is  able to enter the all the data in flight finder page <a href="../img/UserIsAbleToEnterAllTheDataOnFindAFlightPageSuccessfully_1rzko2ixxwfon9380.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- user is able to enter all the data on find a flight page successfully -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-23T14:48:19Z" finished-at="2019-10-23T14:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=user is able to enter all the data on find a flight page successfully status=SUCCESS method=resources.scenarios.FindAFlight.bdd.user is able to enter all the data on find a flight page successfully( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is in home page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When  enter user name 'guest' and password 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'logout.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'logout.password.text'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on signin button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'logout.singin.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When enter all the data in find a flight page type 'roundtrip' and passengers '1' and DepartingFrom 'PORTLAND' and on '6' and Arrivingin 'New York' and return '11'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'roundtrip' into 'flight.roundtrip.rbtn'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '1' into 'flight.passengers.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'PORTLAND' into 'flight.departing.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '6' into 'flight.formday.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'New York' into 'flight.arriving.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '11' into 'flight.returningday.text'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click continue button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'flight.findflight.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on reserveflight button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'flight.reserveflights.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And  click on secureparchase button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'bookingflight.secureparchase.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify user is entering all the values successfully</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'bookinglight.backtoflights.btn' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //img[@src='/images/forms/backtoflights.gif'] present : Actual By.xpath: //img[@src='/images/forms/backtoflights.gif'] present <a href="../img/UserIsAbleToEnterAllTheDataOnFindAFlightPageSuccessfully_7n8edmbih69b9379.png" target="_blank">[View Screenshot]</a> </div></div><div  class="pass"><span class="pass-label">P </span>user is  able to enter the all the data in flight finder page <a href="../img/UserIsAbleToEnterAllTheDataOnFindAFlightPageSuccessfully_1rzko2ixxwfon9380.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-23T14:48:19Z" finished-at="2019-10-23T14:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="afterTest" is-config="true" duration-ms="101" started-at="2019-10-23T14:48:19Z" finished-at="2019-10-23T14:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="afterSuit" is-config="true" duration-ms="0" started-at="2019-10-23T14:48:19Z" finished-at="2019-10-23T14:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAF BDD -->
+</testng-results>

@@ -1,0 +1,30 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "guest",
+          "password": "guest",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "DataFile": "./resources/testData/SigninData.csv",
+        "description": "",
+        "groups": [],
+        "lineNo": 1,
+        "name": "user successfully click on logout button",
+        "referece": "resources/scenarios/login.bdd",
+        "resultFileName": "UserSuccessfullyClickOnLogoutButton",
+        "sign": "resources.scenarios.login.bdd.user successfully click on logout button( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1571994302877,
+      "duration": 27043,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

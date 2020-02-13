@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registerNewUser",
+        "resultFileName": "RegisterNewUser",
+        "sign": "RegisterBeanTest.registerNewUser()[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]"
+      },
+      "dependsOn": [],
+      "startTime": 1571724263923,
+      "duration": 19672,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

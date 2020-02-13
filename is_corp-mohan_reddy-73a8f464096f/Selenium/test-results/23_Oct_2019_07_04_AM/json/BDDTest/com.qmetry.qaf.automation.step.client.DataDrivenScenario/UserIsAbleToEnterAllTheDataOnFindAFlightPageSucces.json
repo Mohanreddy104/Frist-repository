@@ -1,0 +1,543 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openHomPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "[/]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "get",
+              "args": [
+                "{url=http://www.newtours.demoaut.com/}"
+              ],
+              "result": "null",
+              "subLogs": [],
+              "duration": 2243
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterUserNameAndPassword",
+      "args": [
+        "[${signin.data.username}, ${signin.data.password}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest, logout.username.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "id: dd9908cf-7f7e-48ea-86fb-08b83e108208",
+              "subLogs": [],
+              "duration": 43
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='userName']",
+                "{\"value\":[\"guest\"],\"id\":\"dd9908cf-7f7e-48ea-86fb-08b83e108208\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 107
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest, logout.password.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='password'], using=xpath}"
+              ],
+              "result": "id: 34d5c690-4e3d-4854-9c73-55acaa8a1d4c",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='password']",
+                "{\"value\":[\"guest\"],\"id\":\"34d5c690-4e3d-4854-9c73-55acaa8a1d4c\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 47
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnSignin",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[logout.singin.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='login'], using=xpath}"
+              ],
+              "result": "id: 2cb71521-cfea-4f16-a06f-8773fa130ed9",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='login']",
+                "{\"id\":\"2cb71521-cfea-4f16-a06f-8773fa130ed9\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 11692
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterDataOnFindAFlightPage",
+      "args": [
+        "[${data.flightFinder.user.tripType}, ${data.flightFinder.user.passengers}, ${data.flightFinder.user.departing}, ${data.flightFinder.user.fromDay}, ${data.flightFinder.user.arriving}, ${data.flightFinder.user.returningDay}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[roundtrip, flight.roundtrip.rbtn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='tripType'], using=xpath}"
+              ],
+              "result": "id: 70ea56e3-daaa-4653-abe5-9385e979e289",
+              "subLogs": [],
+              "duration": 31
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='tripType']",
+                "{\"value\":[\"roundtrip\"],\"id\":\"70ea56e3-daaa-4653-abe5-9385e979e289\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 42
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[1, flight.passengers.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//select[@name='passCount'], using=xpath}"
+              ],
+              "result": "id: 9c9b88a6-a122-4ff0-80a8-405c7b95b81a",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //select[@name='passCount']",
+                "{\"value\":[\"1\"],\"id\":\"9c9b88a6-a122-4ff0-80a8-405c7b95b81a\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 32
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[PORTLAND, flight.departing.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//select[@name='fromPort'], using=xpath}"
+              ],
+              "result": "id: 764986d2-adb8-46b1-9e2a-780124837b7c",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //select[@name='fromPort']",
+                "{\"value\":[\"PORTLAND\"],\"id\":\"764986d2-adb8-46b1-9e2a-780124837b7c\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 51
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[6, flight.formday.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//select[@name='fromDay'], using=xpath}"
+              ],
+              "result": "id: 92eda16e-49db-44ac-a3a2-5a80b78bf2f4",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //select[@name='fromDay']",
+                "{\"value\":[\"6\"],\"id\":\"92eda16e-49db-44ac-a3a2-5a80b78bf2f4\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 28
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[New York, flight.arriving.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//select[@name='toPort'], using=xpath}"
+              ],
+              "result": "id: 2b8742ba-52cf-4576-a19c-e378554b8d8d",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //select[@name='toPort']",
+                "{\"value\":[\"New York\"],\"id\":\"2b8742ba-52cf-4576-a19c-e378554b8d8d\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 44
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[11, flight.returningday.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//select[@name='toDay'], using=xpath}"
+              ],
+              "result": "id: 53925c49-efa9-4d45-b219-f73b39d75e59",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //select[@name='toDay']",
+                "{\"value\":[\"11\"],\"id\":\"53925c49-efa9-4d45-b219-f73b39d75e59\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 31
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnContinueButton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[flight.findflight.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='findFlights'], using=xpath}"
+              ],
+              "result": "id: b4c5ed78-1af9-4dcb-a3f1-60bd36940954",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='findFlights']",
+                "{\"id\":\"b4c5ed78-1af9-4dcb-a3f1-60bd36940954\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1384
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyUserEnterAllData",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "verifyPresent",
+          "args": [
+            "[flight.reserveflights.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//input[@name='reserveFlights'], using=xpath}"
+              ],
+              "result": "[id: 717e5f73-16bd-4cc6-a283-21fecd8b3a1f]",
+              "subLogs": [],
+              "duration": 92
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is in home page",
+      "type": "TestStepPass",
+      "duration": 18769,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "get '/'",
+          "type": "TestStepPass",
+          "duration": 18760,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When  enter user name 'guest' and password 'guest'",
+      "type": "TestStepPass",
+      "duration": 259,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'guest' into 'logout.username.text'",
+          "type": "TestStepPass",
+          "duration": 190,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'guest' into 'logout.password.text'",
+          "type": "TestStepPass",
+          "duration": 67,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And click on signin button",
+      "type": "TestStepPass",
+      "duration": 11708,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'logout.singin.btn'",
+          "type": "TestStepPass",
+          "duration": 11707,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When enter all the data in find a flight page type 'roundtrip' and passengers '1' and DepartingFrom 'PORTLAND' and on '6' and Arrivingin 'New York' and return '11'",
+      "type": "TestStepPass",
+      "duration": 345,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'roundtrip' into 'flight.roundtrip.rbtn'",
+          "type": "TestStepPass",
+          "duration": 75,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys '1' into 'flight.passengers.text'",
+          "type": "TestStepPass",
+          "duration": 50,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'PORTLAND' into 'flight.departing.text'",
+          "type": "TestStepPass",
+          "duration": 68,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys '6' into 'flight.formday.text'",
+          "type": "TestStepPass",
+          "duration": 41,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'New York' into 'flight.arriving.text'",
+          "type": "TestStepPass",
+          "duration": 62,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys '11' into 'flight.returningday.text'",
+          "type": "TestStepPass",
+          "duration": 45,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And click continue button",
+      "type": "TestStepPass",
+      "duration": 1401,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'flight.findflight.btn'",
+          "type": "TestStepPass",
+          "duration": 1401,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify user is entering all the values successfully",
+      "type": "TestStepPass",
+      "duration": 712,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "verify 'flight.reserveflights.btn' is present",
+          "type": "TestStepPass",
+          "duration": 439,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected By.xpath: //input[@name='reserveFlights'] present : Actual By.xpath: //input[@name='reserveFlights'] present",
+              "type": "Pass",
+              "screenshot": "../img/UserIsAbleToEnterAllTheDataOnFindAFlightPageSuccessfully_13j58yghig8ky34577.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        },
+        {
+          "message": "user is not able to enter the all the data in flight finder page",
+          "type": "Pass",
+          "screenshot": "../img/UserIsAbleToEnterAllTheDataOnFindAFlightPageSuccessfully_1bssf0e55jzl434578.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

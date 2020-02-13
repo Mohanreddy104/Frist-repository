@@ -1,0 +1,4 @@
+amazon.product.row=xpath=.//div[@class='a-section a-spacing-medium']
+amazon.producttitle.txt=xpath=.//span[@class='a-size-medium a-color-base a-text-normal']
+amazon.productprice.txt=xpath=.//span[@class='a-price-whole']
+amazon.productreting.txt=xpath=.//span[@class='a-icon-alt']

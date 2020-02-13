@@ -1,0 +1,28 @@
+17:24:13 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+17:24:13 loading BDD file: ./resources/scenarios/login.bdd
+17:24:13 total test found: 1
+17:24:14 
+
+Executing scenario: New tour login - 
+17:24:14 Test Data{Signin	username	password=guest	guest	Signin, __index=1}
+17:24:14 pkg: com.qmetry.qaf.automation.step
+17:24:14 pkg: com.newtour.steps
+17:24:14 Found duplicate step to load [] with [lower] prority then []
+17:24:14 Found duplicate step to load [] with [lower] prority then []
+17:24:14 Found duplicate step to load [] with [lower] prority then []
+17:24:14 Found duplicate step to load [] with [lower] prority then []
+17:24:14 Invoking Teststep: Given user open new tour application
+17:24:14 Invoking Teststep: get {url} with arguments: [/]
+17:24:47 Completed Teststep: get {url} with arguments: [/]
+17:24:47 Completed Teststep: Given user open new tour application
+17:24:47 Invoking Teststep: When user login with valid '${username}' and valid '${password}' with arguments: [${username}, ${password}]
+17:24:47 Invoking Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+17:24:48 Completed Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+17:24:48 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+17:24:48 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+17:24:48 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+17:24:48 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+17:24:48 Completed Teststep: When user login with valid 'guest' and valid 'guest' with arguments: [${username}, ${password}]
+17:24:48 Invoking Teststep: Then user is able to login successfully
+17:24:49 Completed Teststep: Then user is able to login successfully
+17:24:49 Competed scenario: New tour login with status SUCCESS

@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 23 16:32:26 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24624 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.user is able to enter all the data on find a flight page successfully()'><b>user is able to enter all the data on find a flight page successfully</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (user is able to enter all the data on find a flight page successfully)<br>Test method: enter data on find a flight page <br>Parameters: {file.encoding.pkg=sun.io, file.encoding=Cp1252, file.separator=\, user.country=US, user.script=null, user.dir=D:\OnbordingProject\Project\Selenium, user.variant=null, user.home=C:\Users\mohanreddy.p, user.timezone=Asia/Calcutta, user.name=Mohan.Reddy, user.language=en, selenium.screenshots.relative.path=../img, selenium.screenshots.dir=test-results/23_Oct_2019_11_02_AM/img, basedir=D:\OnbordingProject\Project\Selenium, os.arch=amd64, os.name=Windows 10, os.version=10.0, surefire.real.class.path=D:\OnbordingProject\Project\Selenium\test-results\surefire\surefirebooter1538040912470143236.jar, surefire.test.class.path=D:\OnbordingProject\Project\Selenium\target\test-classes, line.separator=
+, log4j.configuration=file:///D:\OnbordingProject\Project\Selenium/resources/log4j.properties, org.uncommons.reportng.xml-dialect=testng, org.uncommons.reportng.escape-output=false, json.report.dir=test-results/23_Oct_2019_11_02_AM/json, json.report.root.dir=test-results, test.results.dir=test-results/23_Oct_2019_11_02_AM/html, awt.toolkit=sun.awt.windows.WToolkit, webdriver.chrome.driver=./resources/drivers/chromedriver.exe, outputDir=test-results/23_Oct_2019_11_02_AM, localRepository=C:\Users\mohanreddy.p\.m2\repository, __index=1}<br/>
+<a href="#Output-1528834618" onClick='toggleBox("Output-1528834618", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1528834618" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1528834618">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour application</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When  user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>wait until 'signin.username.text' to be present</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>org.openqa.selenium.TimeoutException: Timed out after 3 seconds: Wait time out for By.xpath: //input[@name='userName'] to be present
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ICPL13076', ip: '10.11.24.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown</div></div><div  class="fail"><span class="fail-label">F </span>Timed out after 3 seconds: Wait time out for By.xpath: //input[@name='userName'] to be present
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ICPL13076', ip: '10.11.24.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>And click on signin button</div><div  class="teststep"><span class="teststep-label">T </span>When enter all the data in find a flight page type '${data.flightFinder.user.tripType}' and passengers '${data.flightFinder.user.passengers}' and DepartingFrom '${data.flightFinder.user.departing}' and on '${data.flightFinder.user.fromDay}' and Arrivingin '${data.flightFinder.user.arriving}' and return '${data.flightFinder.user.returningDay}'</div><div  class="teststep"><span class="teststep-label">T </span>And click continue button</div><div  class="teststep"><span class="teststep-label">T </span>And click on reserveflight button</div><div  class="teststep"><span class="teststep-label">T </span>And  click on secureparchase button</div><div  class="teststep"><span class="teststep-label">T </span>Then verify user is entering all the values successfully</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 3 seconds: Wait time out for By.xpath: //input[@name=&apos;userName&apos;] to be present
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ICPL13076&apos;, ip: &apos;10.11.24.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: unknown
+	at .When  user login with valid &apos;${signin.data.username}&apos; and valid &apos;${signin.data.password}&apos;(resources/scenarios/FindAFlight.bdd:4)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:559)
+	at com.qmetry.qaf.automation.step.CommonStep.waitForPresent_aroundBody50(CommonStep.java:643)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.waitForPresent(CommonStep.java:642)
+	at com.newtour.steps.LoginBDDSteps.doLogin_aroundBody2(LoginBDDSteps.java:15)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.newtour.steps.LoginBDDSteps.doLogin(LoginBDDSteps.java:13)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1528834618", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1528834618'><pre>org.openqa.selenium.TimeoutException: Timed out after 3 seconds: Wait time out for By.xpath: //input[@name=&apos;userName&apos;] to be present
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ICPL13076&apos;, ip: &apos;10.11.24.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: unknown
+	at .When  user login with valid &apos;${signin.data.username}&apos; and valid &apos;${signin.data.password}&apos;(resources/scenarios/FindAFlight.bdd:4)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:559)
+	at com.qmetry.qaf.automation.step.CommonStep.waitForPresent_aroundBody50(CommonStep.java:643)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.waitForPresent(CommonStep.java:642)
+	at com.newtour.steps.LoginBDDSteps.doLogin_aroundBody2(LoginBDDSteps.java:15)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.newtour.steps.LoginBDDSteps.doLogin(LoginBDDSteps.java:13)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</pre></div></td>
+<td>18</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

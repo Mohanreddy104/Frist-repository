@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Signin\tusername\tpassword": "guest\tguest\tSignin",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/testData/login.xlsx",
+        "description": "",
+        "groups": [],
+        "key": "Signin",
+        "lineNo": 1,
+        "name": "New tour login",
+        "referece": "resources/scenarios/login.bdd",
+        "resultFileName": "NewTourLogin",
+        "sheetName": "Login",
+        "sign": "resources.scenarios.login.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1571831654124,
+      "duration": 34926,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

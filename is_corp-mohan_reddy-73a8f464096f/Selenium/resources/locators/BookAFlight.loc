@@ -1,0 +1,8 @@
+bookingflight.firstname.text=xpath=//input[@name='passFirst0']
+bookingflight.lastname.text=xpath=//input[@name='passLast0']
+bookingflight.creditnumber.text=xpath=//input[@name='creditnumber']
+bookingflight.secureparchase.btn=xpath=//input[@name='buyFlights']
+bookinglight.backtoflights.btn=xpath=//img[@src='/images/forms/backtoflights.gif']
+bookingflight.month.text=xpath=//select[@name='cc_exp_dt_mn']
+bookingflight.year.text=xpath=//select[@name='cc_exp_dt_yr']
+bookingflight.delcountry.text=xpath=//select[@name='delCountry']

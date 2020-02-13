@@ -1,0 +1,24 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "./scenario/testData/Register.csv",
+        "description": "use valid details and fill the registration form",
+        "groups": [],
+        "lineNo": 1,
+        "name": "New tour register",
+        "referece": "resources/scenarios/RegisterCSV.bdd",
+        "resultFileName": "NewTourRegister",
+        "sign": "resources.scenarios.RegisterCSV.bdd.New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1571997977545,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

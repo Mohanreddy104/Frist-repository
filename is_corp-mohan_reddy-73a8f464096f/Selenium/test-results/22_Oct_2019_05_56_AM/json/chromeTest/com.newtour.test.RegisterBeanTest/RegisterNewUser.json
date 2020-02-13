@@ -1,0 +1,88 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.newtours.demoaut.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2498
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='REGISTER'], using=xpath}"
+      ],
+      "result": "id: 58bd9013-6e58-4a59-9c06-57578dd28d19",
+      "subLogs": [],
+      "duration": 469
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text()='REGISTER']",
+        "{\"id\":\"58bd9013-6e58-4a59-9c06-57578dd28d19\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1699
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@name='register'], using=xpath}"
+      ],
+      "result": "id: fbb0ab1f-9e68-4454-bc0d-2f09d56e8bf7",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@name='register']",
+        "{\"id\":\"fbb0ab1f-9e68-4454-bc0d-2f09d56e8bf7\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 166865
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=( //font)[5], using=xpath}"
+      ],
+      "result": "id: 26364b80-9135-4aa7-998e-3e69a06ab8bd",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: ( //font)[5]",
+        "{\"id\":\"26364b80-9135-4aa7-998e-3e69a06ab8bd\"}"
+      ],
+      "result": "getElementText:Thank you for registering. You may now sign-in using the user name and password you've just entered.",
+      "subLogs": [],
+      "duration": 55
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "enter xml data to Register page it register successfully ",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Thank you for registering message is display",
+      "type": "Pass",
+      "screenshot": "../img/RegisterNewUser_1b4u7578z825g54932.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

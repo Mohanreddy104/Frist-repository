@@ -1,0 +1,227 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "open_Home_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "[/]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "get",
+              "args": [
+                "{url=http://www.newtours.demoaut.com/}"
+              ],
+              "result": "null",
+              "subLogs": [],
+              "duration": 3223
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "doLogin",
+      "args": [
+        "[${username}, ${password}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForPresent",
+          "args": [
+            "[signin.username.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "[id: 8bc23e1b-5358-43c0-8a2d-b19b7699ada9]",
+              "subLogs": [],
+              "duration": 18
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[mohan, signin.username.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "id: 8bc23e1b-5358-43c0-8a2d-b19b7699ada9",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='userName']",
+                "{\"value\":[\"mohan\"],\"id\":\"8bc23e1b-5358-43c0-8a2d-b19b7699ada9\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 47
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[mohan, signin.password.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='password'], using=xpath}"
+              ],
+              "result": "id: 6dd34eb6-7884-4204-a6cb-0fa799c4aa6f",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='password']",
+                "{\"value\":[\"mohan\"],\"id\":\"6dd34eb6-7884-4204-a6cb-0fa799c4aa6f\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 42
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signin.singin.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='login'], using=xpath}"
+              ],
+              "result": "id: 0e541c71-daa0-466c-95c9-b2025218633d",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='login']",
+                "{\"id\":\"0e541c71-daa0-466c-95c9-b2025218633d\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 12147
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifysuccess",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  Open the home page",
+      "type": "TestStepPass",
+      "duration": 6679,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "get '/'",
+          "type": "TestStepPass",
+          "duration": 6669,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When  user login with valid username 'mohan' and valid password 'mohan'",
+      "type": "TestStepPass",
+      "duration": 12325,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'signin.username.text' to be present",
+          "type": "TestStepPass",
+          "duration": 36,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'mohan' into 'signin.username.text'",
+          "type": "TestStepPass",
+          "duration": 64,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'mohan' into 'signin.password.text'",
+          "type": "TestStepPass",
+          "duration": 59,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'signin.singin.btn'",
+          "type": "TestStepPass",
+          "duration": 12163,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then  user Click on signin button",
+      "type": "TestStepPass",
+      "duration": 260,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "login successfully",
+          "type": "Info",
+          "screenshot": "../img/UserSuccessfullyClickOnLogoutButton_kzoffdgfp4f745462.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

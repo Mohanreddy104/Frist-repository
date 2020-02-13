@@ -1,0 +1,409 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openBrowser",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "[/]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "get",
+              "args": [
+                "{url=http://www.newtours.demoaut.com/}"
+              ],
+              "result": "null",
+              "subLogs": [],
+              "duration": 2645
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickonregister",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='REGISTER'], using=xpath}"
+          ],
+          "result": "[id: 5c0ceaf7-40f7-4ea5-8c94-13dfc8922c39]",
+          "subLogs": [],
+          "duration": 458
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='REGISTER'], using=xpath}"
+          ],
+          "result": "id: 5c0ceaf7-40f7-4ea5-8c94-13dfc8922c39",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='REGISTER']",
+            "{\"id\":\"5c0ceaf7-40f7-4ea5-8c94-13dfc8922c39\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 119
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[register.register.link]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//a[text()='REGISTER'], using=xpath}"
+              ],
+              "result": "id: 5c0ceaf7-40f7-4ea5-8c94-13dfc8922c39",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //a[text()='REGISTER']",
+                "{\"id\":\"5c0ceaf7-40f7-4ea5-8c94-13dfc8922c39\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1141
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "registeruserData",
+      "args": [
+        "[${fname}, ${lname}, ${phone}, ${email}, ${address}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[mohan\t, register.firstname.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='firstName'], using=xpath}"
+              ],
+              "result": "id: 2e8a227c-541a-4e6e-ae7f-7b493cc1de32",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='firstName']",
+                "{\"value\":[\"mohan\\t\"],\"id\":\"2e8a227c-541a-4e6e-ae7f-7b493cc1de32\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 556
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[reddy, register.lastname.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='lastName'], using=xpath}"
+              ],
+              "result": "id: d166dab3-fb7d-4bff-bffd-4418fae2f939",
+              "subLogs": [],
+              "duration": 20
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='lastName']",
+                "{\"value\":[\"reddy\"],\"id\":\"d166dab3-fb7d-4bff-bffd-4418fae2f939\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 55
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[\"5655225\", register.phone.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='phone'], using=xpath}"
+              ],
+              "result": "id: 0d0f1402-925c-4e01-8d5f-3a7800d58692",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='phone']",
+                "{\"value\":[\"\\\"5655225\\\"\"],\"id\":\"0d0f1402-925c-4e01-8d5f-3a7800d58692\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 60
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[djfbahdaj, register.email.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "id: 1d6ed06a-e9f3-488b-a039-c38d6c4fb9aa",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='userName']",
+                "{\"value\":[\"djfbahdaj\"],\"id\":\"1d6ed06a-e9f3-488b-a039-c38d6c4fb9aa\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 58
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[ahdfah, register.address1.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='address1'], using=xpath}"
+              ],
+              "result": "id: 13241d3b-b35b-484d-83e7-755ac6de95c6",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='address1']",
+                "{\"value\":[\"ahdfah\"],\"id\":\"13241d3b-b35b-484d-83e7-755ac6de95c6\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 49
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "UserclickOnContinueButton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[register.submit.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='register'], using=xpath}"
+              ],
+              "result": "id: 4428876c-2814-4818-af3d-1718cf669ecb",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='register']",
+                "{\"id\":\"4428876c-2814-4818-af3d-1718cf669ecb\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 2113
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userRegister",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User register",
+      "type": "TestStepPass",
+      "duration": 15949,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "get '/'",
+          "type": "TestStepPass",
+          "duration": 15943,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When click on register button",
+      "type": "TestStepPass",
+      "duration": 1778,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'register.register.link'",
+          "type": "TestStepPass",
+          "duration": 1153,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And User enter user data fname 'mohan\t' and lname 'reddy' and phone '\"5655225\"' and email 'djfbahdaj' and address 'ahdfah'",
+      "type": "TestStepPass",
+      "duration": 860,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'mohan\t' into 'register.firstname.text'",
+          "type": "TestStepPass",
+          "duration": 573,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'reddy' into 'register.lastname.text'",
+          "type": "TestStepPass",
+          "duration": 78,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys '\"5655225\"' into 'register.phone.text'",
+          "type": "TestStepPass",
+          "duration": 74,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'djfbahdaj' into 'register.email.text'",
+          "type": "TestStepPass",
+          "duration": 72,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'ahdfah' into 'register.address1.text'",
+          "type": "TestStepPass",
+          "duration": 62,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then User click on continue button",
+      "type": "TestStepPass",
+      "duration": 2128,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'register.submit.text'",
+          "type": "TestStepPass",
+          "duration": 2128,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user register successfully",
+      "type": "TestStepPass",
+      "duration": 318,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "user register successfully",
+          "type": "Info",
+          "screenshot": "../img/NewTourRegister_12a6p8c9jtj5n8289.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

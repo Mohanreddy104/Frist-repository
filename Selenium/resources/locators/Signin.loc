@@ -1,0 +1,9 @@
+
+#logout page
+logout.username.text=xpath=//input[@name='userName']
+logout.password.text=xpath=//input[@name='password']
+logout.singin.btn=xpath=//input[@name='login']
+logout.findflight.btn=xpath=//input[@name='findFlights']
+logout.reserveflights.btn=xpath=//input[@name='reserveFlights']
+logout.buyflights.btn=xpath=//input[@name='buyFlights']
+logout.logout.btn=xpath=//img[@src='/images/forms/Logout.gif']

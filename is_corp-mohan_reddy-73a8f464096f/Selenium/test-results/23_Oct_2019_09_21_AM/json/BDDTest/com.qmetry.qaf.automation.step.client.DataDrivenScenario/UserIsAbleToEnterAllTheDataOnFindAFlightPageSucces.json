@@ -1,0 +1,299 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openApplicationInBroser",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "[/]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "get",
+              "args": [
+                "{url=http://www.newtours.demoaut.com/}"
+              ],
+              "result": "null",
+              "subLogs": [],
+              "duration": 4169
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "doLogin",
+      "args": [
+        "[${signin.data.username}, ${signin.data.password}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForPresent",
+          "args": [
+            "[signin.username.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "[id: 2c6fbdea-f5de-49f1-a696-fa3d594477fe]",
+              "subLogs": [],
+              "duration": 19
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest, signin.username.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "id: 2c6fbdea-f5de-49f1-a696-fa3d594477fe",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='userName']",
+                "{\"value\":[\"guest\"],\"id\":\"2c6fbdea-f5de-49f1-a696-fa3d594477fe\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 47
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest, signin.password.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='password'], using=xpath}"
+              ],
+              "result": "id: 5dca37a9-a3b5-4002-9fe6-944cd1f8332f",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='password']",
+                "{\"value\":[\"guest\"],\"id\":\"5dca37a9-a3b5-4002-9fe6-944cd1f8332f\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 38
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signin.singin.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='login'], using=xpath}"
+              ],
+              "result": "id: e04e4e58-3956-43c6-8647-d6345739f3a3",
+              "subLogs": [],
+              "duration": 13
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='login']",
+                "{\"id\":\"e04e4e58-3956-43c6-8647-d6345739f3a3\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 12237
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And click on signin button",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When enter all the data in find a flight page type '${data.flightFinder.user.tripType}' and passengers '${data.flightFinder.user.passengers}' and DepartingFrom '${data.flightFinder.user.departing}' and on '${data.flightFinder.user.fromDay}' and Arrivingin '${data.flightFinder.user.arriving}' and return '${data.flightFinder.user.returningDay}'",
+      "args": [
+        "[${data.flightFinder.user.tripType}, ${data.flightFinder.user.passengers}, ${data.flightFinder.user.departing}, ${data.flightFinder.user.fromDay}, ${data.flightFinder.user.arriving}, ${data.flightFinder.user.returningDay}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And click continue button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And click on reserveflight button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And  click on secureparchase button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verify user is entering all the values successfully",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open new tour application",
+      "type": "TestStepPass",
+      "duration": 8605,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "get '/'",
+          "type": "TestStepPass",
+          "duration": 8594,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When  user login with valid 'guest' and valid 'guest'",
+      "type": "TestStepPass",
+      "duration": 12414,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'signin.username.text' to be present",
+          "type": "TestStepPass",
+          "duration": 37,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'guest' into 'signin.username.text'",
+          "type": "TestStepPass",
+          "duration": 66,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'guest' into 'signin.password.text'",
+          "type": "TestStepPass",
+          "duration": 58,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'signin.singin.btn'",
+          "type": "TestStepPass",
+          "duration": 12251,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And click on signin button :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When enter all the data in find a flight page type '${data.flightFinder.user.tripType}' and passengers '${data.flightFinder.user.passengers}' and DepartingFrom '${data.flightFinder.user.departing}' and on '${data.flightFinder.user.fromDay}' and Arrivingin '${data.flightFinder.user.arriving}' and return '${data.flightFinder.user.returningDay}'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click continue button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on reserveflight button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And  click on secureparchase button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify user is entering all the values successfully",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: And click on signin button@resources/scenarios/FindAFlight.bdd#5 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .And click on signin button(resources/scenarios/FindAFlight.bdd:5)\r\n"
+}

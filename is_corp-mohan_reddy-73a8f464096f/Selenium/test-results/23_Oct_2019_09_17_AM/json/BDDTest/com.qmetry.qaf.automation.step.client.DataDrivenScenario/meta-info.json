@@ -1,0 +1,56 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "file.encoding.pkg": "sun.io",
+          "file.encoding": "Cp1252",
+          "file.separator": "\\",
+          "user.country": "US",
+          "user.dir": "D:\\OnbordingProject\\Project\\Selenium",
+          "user.home": "C:\\Users\\mohanreddy.p",
+          "user.timezone": "Asia/Calcutta",
+          "user.name": "Mohan.Reddy",
+          "user.language": "en",
+          "selenium.screenshots.relative.path": "../img",
+          "selenium.screenshots.dir": "test-results/23_Oct_2019_09_17_AM/img",
+          "basedir": "D:\\OnbordingProject\\Project\\Selenium",
+          "os.arch": "amd64",
+          "os.name": "Windows 10",
+          "os.version": 10.0,
+          "surefire.real.class.path": "D:\\OnbordingProject\\Project\\Selenium\\test-results\\surefire\\surefirebooter1150438415475658499.jar",
+          "surefire.test.class.path": "D:\\OnbordingProject\\Project\\Selenium\\target\\test-classes",
+          "line.separator": "\r\n",
+          "log4j.configuration": "file:///D:\\OnbordingProject\\Project\\Selenium/resources/log4j.properties",
+          "org.uncommons.reportng.xml-dialect": "testng",
+          "org.uncommons.reportng.escape-output": false,
+          "json.report.dir": "test-results/23_Oct_2019_09_17_AM/json",
+          "json.report.root.dir": "test-results",
+          "test.results.dir": "test-results/23_Oct_2019_09_17_AM/html",
+          "awt.toolkit": "sun.awt.windows.WToolkit",
+          "webdriver.chrome.driver": "./resources/drivers/chromedriver.exe",
+          "outputDir": "test-results/23_Oct_2019_09_17_AM",
+          "localRepository": "C:\\Users\\mohanreddy.p\\.m2\\repository",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/tesData/FlightFinder.xml",
+        "description": "enter data on find a flight page ",
+        "groups": [],
+        "lineNo": 1,
+        "name": "user is able to enter all the data on find a flight page successfully",
+        "referece": "resources/scenarios/FindAFlight.bdd",
+        "resultFileName": "UserIsAbleToEnterAllTheDataOnFindAFlightPageSucces",
+        "sign": "resources.scenarios.FindAFlight.bdd.user is able to enter all the data on find a flight page successfully( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1571822255725,
+      "duration": 43293,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

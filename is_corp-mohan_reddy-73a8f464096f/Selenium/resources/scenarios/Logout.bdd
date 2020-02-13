@@ -1,0 +1,10 @@
+SCENARIO: user successfully click on logout button
+META-DATA: {"DataFile":"./resources/testData/Signin.xml","description":"checking the logout button"}
+Given  Open the home page
+When  user enter the username '${signin.data.username}' and password '${signin.data.password}'
+#And  user Click on signin button
+#And  user click on continue button
+#And  user click on continue button
+And click on logout button
+Then verify the logout 
+END

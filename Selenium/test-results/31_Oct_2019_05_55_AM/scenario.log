@@ -1,0 +1,71 @@
+11:25:41 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+11:25:41 loading BDD file: ./resources/scenarios/RegisterCSV.bdd
+11:25:41 total test found: 1
+11:25:42 
+
+Executing scenario: New tour register - use valid details and fill the registration form
+11:25:42 Test Data{fname=mohan	, lname=reddy, phone="5655225", email=djfbahdaj, address=ahdfah, __index=1}
+11:25:42 pkg: com.qmetry.qaf.automation.step
+11:25:42 pkg: com.newtour.steps
+11:25:42 Found duplicate step to load [] with [lower] prority then []
+11:25:42 Found duplicate step to load [] with [lower] prority then []
+11:25:42 Found duplicate step to load [] with [lower] prority then []
+11:25:42 Found duplicate step to load [] with [lower] prority then []
+11:25:42 Invoking Teststep: Given User register
+11:25:42 Invoking Teststep: get {url} with arguments: [/]
+11:25:47 Completed Teststep: get {url} with arguments: [/]
+11:25:47 Completed Teststep: Given User register
+11:25:47 Invoking Teststep: When click on register button
+11:25:47 Invoking Teststep: click on {loc} with arguments: [register.register.link]
+11:25:48 Completed Teststep: click on {loc} with arguments: [register.register.link]
+11:25:48 Completed Teststep: When click on register button
+11:25:48 Invoking Teststep: And User enter user data fname '${fname}' and lname '${lname}' and phone '${phone}' and email '${email}' and address '${address}' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+11:25:48 Invoking Teststep: sendKeys {text} into {loc} with arguments: [mohan	, register.firstname.text]
+11:25:48 Completed Teststep: sendKeys {text} into {loc} with arguments: [mohan	, register.firstname.text]
+11:25:48 Invoking Teststep: sendKeys {text} into {loc} with arguments: [reddy, register.lastname.text]
+11:25:49 Completed Teststep: sendKeys {text} into {loc} with arguments: [reddy, register.lastname.text]
+11:25:49 Invoking Teststep: sendKeys {text} into {loc} with arguments: ["5655225", register.phone.text]
+11:25:49 Completed Teststep: sendKeys {text} into {loc} with arguments: ["5655225", register.phone.text]
+11:25:49 Invoking Teststep: sendKeys {text} into {loc} with arguments: [djfbahdaj, register.email.text]
+11:25:49 Completed Teststep: sendKeys {text} into {loc} with arguments: [djfbahdaj, register.email.text]
+11:25:49 Invoking Teststep: sendKeys {text} into {loc} with arguments: [ahdfah, register.address1.text]
+11:25:49 Completed Teststep: sendKeys {text} into {loc} with arguments: [ahdfah, register.address1.text]
+11:25:49 Completed Teststep: And User enter user data fname 'mohan	' and lname 'reddy' and phone '"5655225"' and email 'djfbahdaj' and address 'ahdfah' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+11:25:49 Invoking Teststep: Then User click on continue button
+11:25:49 Invoking Teststep: click on {loc} with arguments: [register.submit.text]
+11:25:51 Completed Teststep: click on {loc} with arguments: [register.submit.text]
+11:25:51 Completed Teststep: Then User click on continue button
+11:25:51 Invoking Teststep: Then user register successfully
+11:25:51 Completed Teststep: Then user register successfully
+11:25:51 Competed scenario: New tour register with status SUCCESS
+11:25:51 
+
+Executing scenario: New tour register - use valid details and fill the registration form
+11:25:51 Test Data{fname=guest, lname=bkd, phone="1245635552", email=nfbdnkjfbd, address=dfdsjjdsh, __index=2}
+11:25:51 Invoking Teststep: Given User register
+11:25:51 Invoking Teststep: get {url} with arguments: [/]
+11:25:52 Completed Teststep: get {url} with arguments: [/]
+11:25:52 Completed Teststep: Given User register
+11:25:52 Invoking Teststep: When click on register button
+11:25:52 Invoking Teststep: click on {loc} with arguments: [register.register.link]
+11:25:53 Completed Teststep: click on {loc} with arguments: [register.register.link]
+11:25:53 Completed Teststep: When click on register button
+11:25:53 Invoking Teststep: And User enter user data fname '${fname}' and lname '${lname}' and phone '${phone}' and email '${email}' and address '${address}' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+11:25:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, register.firstname.text]
+11:25:53 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, register.firstname.text]
+11:25:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: [bkd, register.lastname.text]
+11:25:53 Completed Teststep: sendKeys {text} into {loc} with arguments: [bkd, register.lastname.text]
+11:25:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: ["1245635552", register.phone.text]
+11:25:53 Completed Teststep: sendKeys {text} into {loc} with arguments: ["1245635552", register.phone.text]
+11:25:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: [nfbdnkjfbd, register.email.text]
+11:25:53 Completed Teststep: sendKeys {text} into {loc} with arguments: [nfbdnkjfbd, register.email.text]
+11:25:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: [dfdsjjdsh, register.address1.text]
+11:25:54 Completed Teststep: sendKeys {text} into {loc} with arguments: [dfdsjjdsh, register.address1.text]
+11:25:54 Completed Teststep: And User enter user data fname 'guest' and lname 'bkd' and phone '"1245635552"' and email 'nfbdnkjfbd' and address 'dfdsjjdsh' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+11:25:54 Invoking Teststep: Then User click on continue button
+11:25:54 Invoking Teststep: click on {loc} with arguments: [register.submit.text]
+11:25:56 Completed Teststep: click on {loc} with arguments: [register.submit.text]
+11:25:56 Completed Teststep: Then User click on continue button
+11:25:56 Invoking Teststep: Then user register successfully
+11:25:56 Completed Teststep: Then user register successfully
+11:25:56 Competed scenario: New tour register with status SUCCESS

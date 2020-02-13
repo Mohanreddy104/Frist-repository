@@ -1,0 +1,17 @@
+SCENARIO: user is able to enter all the data on find a flight page successfully
+META-DATA: {"dataFile":"./resources/tesData/FlightFinder.xml","description":"enter data on find a flight page "}
+Given user open new tour application
+When  user login with valid username '${signin.data.username}' and valid password '${signin.data.password}'
+And click on signin button
+When enter all the data in find a flight page type '${data.flightFinder.user.tripType}' and passengers '${data.flightFinder.user.passengers}' and DepartingFrom '${data.flightFinder.user.departing}' and on '${data.flightFinder.user.fromDay}' and Arrivingin '${data.flightFinder.user.arriving}' and return '${data.flightFinder.user.returningDay}'
+And click continue button 
+And click on reserveflight button
+And  click on secureparchase button
+Then verify user is entering all the values successfully
+END
+
+
+
+
+
+

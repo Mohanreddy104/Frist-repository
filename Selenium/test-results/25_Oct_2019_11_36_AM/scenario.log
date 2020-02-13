@@ -1,0 +1,32 @@
+17:06:46 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+17:06:46 loading BDD file: ./resources/scenarios/login.bdd
+17:06:46 total test found: 1
+17:06:46 
+
+Executing scenario: user successfully click on logout button - 
+17:06:46 Test Data{file.encoding.pkg=sun.io, file.encoding=Cp1252, file.separator=\, user.country=US, user.script=null, user.dir=D:\OnbordingProject\Project\Selenium, user.variant=null, user.home=C:\Users\mohanreddy.p, user.timezone=Asia/Calcutta, user.name=Mohan.Reddy, user.language=en, selenium.screenshots.relative.path=../img, selenium.screenshots.dir=test-results/25_Oct_2019_11_36_AM/img, basedir=D:\OnbordingProject\Project\Selenium, os.arch=amd64, os.name=Windows 10, os.version=10.0, surefire.real.class.path=D:\OnbordingProject\Project\Selenium\test-results\surefire\surefirebooter2181934150758142534.jar, surefire.test.class.path=D:\OnbordingProject\Project\Selenium\target\test-classes, line.separator=
+, log4j.configuration=file:///D:\OnbordingProject\Project\Selenium/resources/log4j.properties, org.uncommons.reportng.xml-dialect=testng, org.uncommons.reportng.escape-output=false, json.report.dir=test-results/25_Oct_2019_11_36_AM/json, json.report.root.dir=test-results, test.results.dir=test-results/25_Oct_2019_11_36_AM/html, awt.toolkit=sun.awt.windows.WToolkit, webdriver.chrome.driver=./resources/drivers/chromedriver.exe, outputDir=test-results/25_Oct_2019_11_36_AM, localRepository=C:\Users\mohanreddy.p\.m2\repository, invalidSignin.data.username=guest, invalidSignin.data.password=guest123, __index=1}
+17:06:46 pkg: com.qmetry.qaf.automation.step
+17:06:46 pkg: com.newtour.steps
+17:06:46 Found duplicate step to load [] with [lower] prority then []
+17:06:46 Found duplicate step to load [] with [lower] prority then []
+17:06:46 Found duplicate step to load [] with [lower] prority then []
+17:06:46 Found duplicate step to load [] with [lower] prority then []
+17:06:46 Found duplicate step to load [] with [lower] prority then []
+17:06:46 Invoking Teststep: Given  Open the home page
+17:06:46 Invoking Teststep: get {url} with arguments: [/]
+17:06:53 Completed Teststep: get {url} with arguments: [/]
+17:06:53 Completed Teststep: Given  Open the home page
+17:06:53 Invoking Teststep: When  user login with valid username '${invalidSignin.data.username}' and valid password '${invalidSignin.data.password}' with arguments: [${invalidSignin.data.username}, ${invalidSignin.data.password}]
+17:06:53 Invoking Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+17:06:53 Completed Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+17:06:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+17:06:53 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+17:06:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest123, signin.password.text]
+17:06:53 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest123, signin.password.text]
+17:06:53 Invoking Teststep: click on {loc} with arguments: [signin.singin.btn]
+17:06:55 Completed Teststep: click on {loc} with arguments: [signin.singin.btn]
+17:06:55 Completed Teststep: When  user login with valid username 'guest' and valid password 'guest123' with arguments: [${invalidSignin.data.username}, ${invalidSignin.data.password}]
+17:06:55 Invoking Teststep: Then  user Click on signin button
+17:06:56 Completed Teststep: Then  user Click on signin button
+17:06:56 Competed scenario: user successfully click on logout button with status SUCCESS

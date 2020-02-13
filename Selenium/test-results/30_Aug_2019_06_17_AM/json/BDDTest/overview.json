@@ -1,0 +1,59 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": true,
+      "platform": "ANY",
+      "takesScreenshot": true,
+      "version": ""
+    },
+    "browser-actual-capabilities": {
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\\Users\\MOHANR~1.P\\AppData\\Local\\Temp\\scoped_dir9900_15301}",
+      "timeouts": "{implicit=0, pageLoad=300000, script=30000}",
+      "pageLoadStrategy": "normal",
+      "unhandledPromptBehavior": "dismiss and notify",
+      "strictFileInteractability": "false",
+      "platform": "XP",
+      "proxy": "Proxy()",
+      "goog:chromeOptions": "{debuggerAddress=localhost:50200}",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "76.0.3809.100",
+      "browserName": "chrome",
+      "javascriptEnabled": "true",
+      "platformName": "XP",
+      "setWindowRect": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Jan-2019 19:18:14"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "resources/scenarios/Register.bdd",
+      "baseurl": "http://www.newtours.demoaut.com/"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_201",
+      "os.arch": "amd64",
+      "host": "ICPL13076",
+      "os.name": "Windows 10",
+      "user.name": "Mohanreddy.p",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1567145887321,
+  "endTime": 1567145887411
+}

@@ -1,0 +1,14 @@
+#surefire
+#Tue Jul 02 17:34:05 IST 2019
+selenium.screenshots.dir=test-results/02_Jul_2019_12_04_PM/img
+json.report.dir=test-results/02_Jul_2019_12_04_PM/json
+outputDir=test-results/02_Jul_2019_12_04_PM
+log4j.configuration=file\:///C\:\\Users\\mohanreddy.p\\Downloads\\qaf-blank-project-maven-master\\qaf-blank-project-maven-master/resources/log4j.properties
+selenium.screenshots.relative.path=../img
+org.uncommons.reportng.xml-dialect=testng
+user.dir=C\:\\Users\\mohanreddy.p\\Downloads\\qaf-blank-project-maven-master\\qaf-blank-project-maven-master
+localRepository=C\:\\Users\\mohanreddy.p\\.m2\\repository
+basedir=C\:\\Users\\mohanreddy.p\\Downloads\\qaf-blank-project-maven-master\\qaf-blank-project-maven-master
+test.results.dir=test-results/02_Jul_2019_12_04_PM/html
+org.uncommons.reportng.escape-output=false
+json.report.root.dir=test-results

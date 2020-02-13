@@ -1,0 +1,16 @@
+<root>
+	<data>
+		<selectedSameLocations>
+			<user>
+				<tripType>roundtrip</tripType>
+				<passengers>1</passengers>
+				<departing>London</departing>
+				<fromMonth>july</fromMonth>
+				<fromDay>10</fromDay>
+				<arriving>London</arriving>
+				<returningMonth>july</returningMonth>
+				<returningDay>15</returningDay>
+			</user>
+		</selectedSameLocations>
+	</data>
+</root>

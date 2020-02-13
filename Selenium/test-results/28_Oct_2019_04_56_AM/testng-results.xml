@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="1" total="3" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User register</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on register button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'register.register.link'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And User enter with fname 'mohan	' and lname 'reddy' and phone '32121564' and email 'djfbahdaj' and address 'ahdfah'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at </div></div><div  class="teststep"><span class="teststep-label">T </span>Then User click on continue button</div><div  class="teststep"><span class="teststep-label">T </span>Then user register successfully</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User register</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on register button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'register.register.link'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And User enter with fname 'guest' and lname 'bkd' and phone '5445645' and email 'nfbdnkjfbd' and address 'dfdsjjdsh'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at </div></div><div  class="teststep"><span class="teststep-label">T </span>Then User click on continue button</div><div  class="teststep"><span class="teststep-label">T </span>Then user register successfully</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF BDD" duration-ms="14146" started-at="2019-10-28T04:57:04Z" finished-at="2019-10-28T04:57:18Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="14146" started-at="2019-10-28T04:57:04Z" finished-at="2019-10-28T04:57:18Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="setupSuit" is-config="true" duration-ms="20" started-at="2019-10-28T10:27:04Z" finished-at="2019-10-28T10:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="setupTest" is-config="true" duration-ms="1" started-at="2019-10-28T10:27:04Z" finished-at="2019-10-28T10:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="setup" is-config="true" duration-ms="1" started-at="2019-10-28T10:27:04Z" finished-at="2019-10-28T10:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-10-28T10:27:04Z" finished-at="2019-10-28T10:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="SKIP" signature="New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="New tour register" duration-ms="11614" started-at="2019-10-28T10:27:04Z" description="use valid details and fill the registration form" finished-at="2019-10-28T10:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=mohan	, lname=reddy, phone=32121564, email=djfbahdaj, address=ahdfah, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.qmetry.qaf.automation.step.StepInvocationException">
+            <message>
+              <![CDATA[Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at 
+	at .And User enter with fname '${fname}' and lname '${lname}' and phone '${phone}' and email '${email}' and address '${address}'(resources/scenarios/RegisterCSV.bdd:5)
+	at com.newtour.steps.RegisterCSVSteps.register(com.newtour.steps.RegisterCSVSteps:0)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.step.StepInvocationException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User register</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on register button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'register.register.link'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And User enter with fname 'mohan	' and lname 'reddy' and phone '32121564' and email 'djfbahdaj' and address 'ahdfah'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at </div></div><div  class="teststep"><span class="teststep-label">T </span>Then User click on continue button</div><div  class="teststep"><span class="teststep-label">T </span>Then user register successfully</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- New tour register -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-28T10:27:16Z" finished-at="2019-10-28T10:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=New tour register status=SKIP method=resources.scenarios.RegisterCSV.bdd.New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User register</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on register button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'register.register.link'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And User enter with fname 'mohan	' and lname 'reddy' and phone '32121564' and email 'djfbahdaj' and address 'ahdfah'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at </div></div><div  class="teststep"><span class="teststep-label">T </span>Then User click on continue button</div><div  class="teststep"><span class="teststep-label">T </span>Then user register successfully</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-10-28T10:27:16Z" finished-at="2019-10-28T10:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="SKIP" signature="New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="New tour register" duration-ms="2130" started-at="2019-10-28T10:27:16Z" description="use valid details and fill the registration form" finished-at="2019-10-28T10:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=guest, lname=bkd, phone=5445645, email=nfbdnkjfbd, address=dfdsjjdsh, __index=2}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.qmetry.qaf.automation.step.StepInvocationException">
+            <message>
+              <![CDATA[Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at 
+	at .And User enter with fname '${fname}' and lname '${lname}' and phone '${phone}' and email '${email}' and address '${address}'(resources/scenarios/RegisterCSV.bdd:5)
+	at com.newtour.steps.RegisterCSVSteps.register(com.newtour.steps.RegisterCSVSteps:0)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.step.StepInvocationException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User register</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on register button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'register.register.link'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And User enter with fname 'guest' and lname 'bkd' and phone '5445645' and email 'nfbdnkjfbd' and address 'dfdsjjdsh'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at </div></div><div  class="teststep"><span class="teststep-label">T </span>Then User click on continue button</div><div  class="teststep"><span class="teststep-label">T </span>Then user register successfully</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- New tour register -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-28T10:27:18Z" finished-at="2019-10-28T10:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=New tour register status=SKIP method=resources.scenarios.RegisterCSV.bdd.New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User register</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on register button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'register.register.link'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And User enter with fname 'guest' and lname 'bkd' and phone '5445645' and email 'nfbdnkjfbd' and address 'dfdsjjdsh'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at </div></div><div  class="teststep"><span class="teststep-label">T </span>Then User click on continue button</div><div  class="teststep"><span class="teststep-label">T </span>Then user register successfully</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-28T10:27:18Z" finished-at="2019-10-28T10:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="afterTest" is-config="true" duration-ms="169" started-at="2019-10-28T10:27:18Z" finished-at="2019-10-28T10:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="New tour register" name="afterSuit" is-config="true" duration-ms="1" started-at="2019-10-28T10:27:19Z" finished-at="2019-10-28T10:27:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAF BDD -->
+</testng-results>

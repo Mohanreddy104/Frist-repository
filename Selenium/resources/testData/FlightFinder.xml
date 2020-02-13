@@ -1,0 +1,33 @@
+<root>
+	<data>
+		<flightFinder>
+			<user>
+				<tripType>roundtrip</tripType>
+				<passengers>1</passengers>
+				<departing>PORTLAND</departing>
+				<fromMonth>july</fromMonth>
+				<fromDay>6</fromDay>
+				<arriving>New York</arriving>
+				<returningMonth>july</returningMonth>
+				<returningDay>11</returningDay>
+			</user>
+		</flightFinder>
+	</data>
+	<data>
+		<selectFlight>
+			<user>
+				<outFlight>Unified Airlines$363$281$11:24</outFlight>
+				<inFlight>Blue Skies Airlines$631$273$14:30</inFlight>
+			</user>
+		</selectFlight>
+	</data>
+	<data>
+		<bookingFlight>
+			<user>
+				<firstname>abcd</firstname>
+				<lastname>efgh</lastname>
+				<creditNumber>12345</creditNumber>
+			</user>
+		</bookingFlight>
+	</data>
+</root>

@@ -1,0 +1,71 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "file.encoding.pkg": "sun.io",
+          "file.encoding": "Cp1252",
+          "file.separator": "\\",
+          "user.country": "US",
+          "user.dir": "D:\\OnbordingProject\\Project\\Selenium",
+          "user.home": "C:\\Users\\mohanreddy.p",
+          "user.timezone": "Asia/Calcutta",
+          "user.name": "Mohanreddy.p",
+          "user.language": "en",
+          "selenium.screenshots.relative.path": "../img",
+          "selenium.screenshots.dir": "test-results/30_Aug_2019_06_15_AM/img",
+          "basedir": "D:\\OnbordingProject\\Project\\Selenium",
+          "os.arch": "amd64",
+          "os.name": "Windows 10",
+          "os.version": 10.0,
+          "surefire.real.class.path": "D:\\OnbordingProject\\Project\\Selenium\\test-results\\surefire\\surefirebooter7816668625093119011.jar",
+          "surefire.test.class.path": "D:\\OnbordingProject\\Project\\Selenium\\target\\test-classes",
+          "line.separator": "\r\n",
+          "webdriver.edge.driver": "./resources/drivers/MicrosoftWebDriver.exe",
+          "webdriver.ie.driver": "./resources/drivers/IEDriverServer.exe",
+          "webdriver.gecko.driver": "./resources/drivers/geckodriver.exe",
+          "webdriver.chrome.driver": "./resources/drivers/chromedriver.exe",
+          "log4j.configuration": "file:///D:\\OnbordingProject\\Project\\Selenium/resources/log4j.properties",
+          "org.uncommons.reportng.xml-dialect": "testng",
+          "org.uncommons.reportng.escape-output": false,
+          "json.report.dir": "test-results/30_Aug_2019_06_15_AM/json",
+          "json.report.root.dir": "test-results",
+          "test.results.dir": "test-results/30_Aug_2019_06_15_AM/html",
+          "awt.toolkit": "sun.awt.windows.WToolkit",
+          "outputDir": "test-results/30_Aug_2019_06_15_AM",
+          "localRepository": "C:\\Users\\mohanreddy.p\\.m2\\repository",
+          "data.register.user.firstname": "Elena",
+          "data.register.user.lastname": "Gilbert",
+          "data.register.user.phone": 1234567890,
+          "data.register.user.email": "abc@gmail.com",
+          "data.register.user.address": "flat-007, baker street-202, west side",
+          "data.register.user.city": "New York",
+          "data.register.user.state": "New York",
+          "data.register.user.postalcode": 12345,
+          "data.register.user.country": "us",
+          "data.register.user.username": "Elena123",
+          "data.register.user.password": "Elena123",
+          "data.register.user.confirmpassword": "Elena123",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/testData/Register.xml",
+        "description": "use valid details and fill the registration form",
+        "groups": [],
+        "lineNo": 1,
+        "name": "New tour register",
+        "referece": "resources/scenarios/Register.bdd",
+        "resultFileName": "NewTourRegister",
+        "sign": "resources.scenarios.Register.bdd.New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1567145756896,
+      "duration": 6647,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

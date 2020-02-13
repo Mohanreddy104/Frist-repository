@@ -1,0 +1,58 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "file.encoding.pkg": "sun.io",
+          "file.encoding": "Cp1252",
+          "file.separator": "\\",
+          "user.country": "US",
+          "user.dir": "D:\\OnbordingProject\\Project\\Selenium",
+          "user.home": "C:\\Users\\mohanreddy.p",
+          "user.timezone": "Asia/Calcutta",
+          "user.name": "Mohan.Reddy",
+          "user.language": "en",
+          "selenium.screenshots.relative.path": "../img",
+          "selenium.screenshots.dir": "test-results/25_Oct_2019_11_36_AM/img",
+          "basedir": "D:\\OnbordingProject\\Project\\Selenium",
+          "os.arch": "amd64",
+          "os.name": "Windows 10",
+          "os.version": 10.0,
+          "surefire.real.class.path": "D:\\OnbordingProject\\Project\\Selenium\\test-results\\surefire\\surefirebooter2181934150758142534.jar",
+          "surefire.test.class.path": "D:\\OnbordingProject\\Project\\Selenium\\target\\test-classes",
+          "line.separator": "\r\n",
+          "log4j.configuration": "file:///D:\\OnbordingProject\\Project\\Selenium/resources/log4j.properties",
+          "org.uncommons.reportng.xml-dialect": "testng",
+          "org.uncommons.reportng.escape-output": false,
+          "json.report.dir": "test-results/25_Oct_2019_11_36_AM/json",
+          "json.report.root.dir": "test-results",
+          "test.results.dir": "test-results/25_Oct_2019_11_36_AM/html",
+          "awt.toolkit": "sun.awt.windows.WToolkit",
+          "webdriver.chrome.driver": "./resources/drivers/chromedriver.exe",
+          "outputDir": "test-results/25_Oct_2019_11_36_AM",
+          "localRepository": "C:\\Users\\mohanreddy.p\\.m2\\repository",
+          "invalidSignin.data.username": "guest",
+          "invalidSignin.data.password": "guest123",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/testData/InvalidSignin.xml",
+        "description": "",
+        "groups": [],
+        "lineNo": 1,
+        "name": "user successfully click on logout button",
+        "referece": "resources/scenarios/login.bdd",
+        "resultFileName": "UserSuccessfullyClickOnLogoutButton",
+        "sign": "resources.scenarios.login.bdd.user successfully click on logout button( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1572003406657,
+      "duration": 9530,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

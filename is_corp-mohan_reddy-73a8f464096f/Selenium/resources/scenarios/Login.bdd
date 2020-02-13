@@ -1,0 +1,6 @@
+SCENARIO: user successfully click on logout button
+META-DATA: {"dataFile":"./resources/testData/InvalidSignin.xml"}
+Given  Open the home page
+When  user login with valid username '${invalidSignin.data.username}' and valid password '${invalidSignin.data.password}'
+Then  user Click on signin button
+END

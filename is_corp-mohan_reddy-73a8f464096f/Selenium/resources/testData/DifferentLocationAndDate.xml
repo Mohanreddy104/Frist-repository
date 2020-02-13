@@ -1,0 +1,38 @@
+<root>
+	<data>
+		<flights>
+			<user>
+				<tripType>roundtrip</tripType>
+				<passengers>1</passengers>
+				<departing>PORTLAND</departing>
+				<fromMonth>july</fromMonth>
+				<fromDay>1</fromDay>
+				<arriving>London</arriving>
+				<returningMonth>july</returningMonth>
+				<returningDay>5</returningDay>
+
+			</user>
+			<user>
+				<tripType>roundtrip</tripType>
+				<passengers>1</passengers>
+				<departing>PORTLAND</departing>
+				<fromMonth>july</fromMonth>
+				<fromDay>24</fromDay>
+				<arriving>New York</arriving>
+				<returningMonth>july</returningMonth>
+				<returningDay>2</returningDay>
+			</user>
+			<user>
+				<tripType>roundtrip</tripType>
+				<passengers>1</passengers>
+				<departing>New York</departing>
+				<fromMonth>june</fromMonth>
+				<fromDay>3</fromDay>
+				<arriving>London</arriving>
+				<returningMonth>july</returningMonth>
+				<returningDay>29</returningDay>
+
+			</user>
+		</flights>
+	</data>
+</root>

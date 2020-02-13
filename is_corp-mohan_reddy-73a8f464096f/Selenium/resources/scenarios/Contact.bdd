@@ -1,0 +1,7 @@
+SCENARIO: verify contact field
+META-DATA: {"description":"user verifying contact field"}
+Given user in homepage
+When user click on contact link
+And click on backtohome page
+Then clicking on contact it is navigating to home page
+END

@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 28 10:37:40 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8369 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.New tour register()'><b>New tour register</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (New tour register)<br>Test method: use valid details and fill the registration form<br>Parameters: {fname=mohan	, lname=reddy, phone=32121564, email=djfbahdaj, address=ahdfah, __index=1}<br/>
+<a href="#Output-1406206626" onClick='toggleBox("Output-1406206626", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406206626" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406206626">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User register</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on register button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'register.register.link'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When User enter with fname 'mohan	' and lname 'reddy' and phone '32121564' and email 'djfbahdaj' and address 'ahdfah'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at </div></div><div  class="teststep"><span class="teststep-label">T </span>Then User click on continue button</div><div  class="teststep"><span class="teststep-label">T </span>Then user register successfully</div></div><br/>
+</div>
+</td>
+<td><div><pre>com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at 
+	at .When User enter with fname &apos;${fname}&apos; and lname &apos;${lname}&apos; and phone &apos;${phone}&apos; and email &apos;${email}&apos; and address &apos;${address}&apos;(resources/scenarios/RegisterCSV.bdd:5)
+	at com.newtour.steps.RegisterCSVSteps.register(com.newtour.steps.RegisterCSVSteps:0)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1406206626", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1406206626'><pre>com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at 
+	at .When User enter with fname &apos;${fname}&apos; and lname &apos;${lname}&apos; and phone &apos;${phone}&apos; and email &apos;${email}&apos; and address &apos;${address}&apos;(resources/scenarios/RegisterCSV.bdd:5)
+	at com.newtour.steps.RegisterCSVSteps.register(com.newtour.steps.RegisterCSVSteps:0)
+</pre></div></td>
+<td>6</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.New tour register()'><b>New tour register</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (New tour register)<br>Test method: use valid details and fill the registration form<br>Parameters: {fname=guest, lname=bkd, phone=5445645, email=nfbdnkjfbd, address=dfdsjjdsh, __index=2}<br/>
+<a href="#Output-1458091526" onClick='toggleBox("Output-1458091526", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1458091526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1458091526">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User register</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on register button</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'register.register.link'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When User enter with fname 'guest' and lname 'bkd' and phone '5445645' and email 'nfbdnkjfbd' and address 'dfdsjjdsh'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at </div></div><div  class="teststep"><span class="teststep-label">T </span>Then User click on continue button</div><div  class="teststep"><span class="teststep-label">T </span>Then user register successfully</div></div><br/>
+</div>
+</td>
+<td><div><pre>com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at 
+	at .When User enter with fname &apos;${fname}&apos; and lname &apos;${lname}&apos; and phone &apos;${phone}&apos; and email &apos;${email}&apos; and address &apos;${address}&apos;(resources/scenarios/RegisterCSV.bdd:5)
+	at com.newtour.steps.RegisterCSVSteps.register(com.newtour.steps.RegisterCSVSteps:0)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1458091526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1458091526'><pre>com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: register[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at 
+	at .When User enter with fname &apos;${fname}&apos; and lname &apos;${lname}&apos; and phone &apos;${phone}&apos; and email &apos;${email}&apos; and address &apos;${address}&apos;(resources/scenarios/RegisterCSV.bdd:5)
+	at com.newtour.steps.RegisterCSVSteps.register(com.newtour.steps.RegisterCSVSteps:0)
+</pre></div></td>
+<td>1</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

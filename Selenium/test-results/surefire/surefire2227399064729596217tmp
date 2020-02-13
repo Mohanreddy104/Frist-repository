@@ -1,0 +1,14 @@
+#surefire
+#Tue Aug 27 11:38:27 IST 2019
+selenium.screenshots.dir=test-results/27_Aug_2019_06_08_AM/img
+json.report.dir=test-results/27_Aug_2019_06_08_AM/json
+outputDir=test-results/27_Aug_2019_06_08_AM
+log4j.configuration=file\:///D\:\\OnbordingProject\\Project\\Selenium/resources/log4j.properties
+selenium.screenshots.relative.path=../img
+org.uncommons.reportng.xml-dialect=testng
+user.dir=D\:\\OnbordingProject\\Project\\Selenium
+localRepository=C\:\\Users\\mohanreddy.p\\.m2\\repository
+basedir=D\:\\OnbordingProject\\Project\\Selenium
+test.results.dir=test-results/27_Aug_2019_06_08_AM/html
+org.uncommons.reportng.escape-output=false
+json.report.root.dir=test-results

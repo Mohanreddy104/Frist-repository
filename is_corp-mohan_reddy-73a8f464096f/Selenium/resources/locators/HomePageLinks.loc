@@ -1,0 +1,17 @@
+homepage.featureddesctination.img=xpath=//img[@alt='Featured Destination: Aruba']
+homepage.speciol.img=xpath=//img[@alt='Specials']
+homepage.tourtips.img=xpath=//img[@alt='Tour Tips']
+homepage.findafilght.img=xpath=//img[@alt='Find a Flight']
+homepage.destination.link=xpath=//a[text()='Destinations']
+homepage.vacations.link=xpath=//a[text()='Vacations']
+homepage.register.img=xpath=//img[@alt='Register']
+homepage.links.img=xpath=//img[@alt='Links']
+homepage.topmanu.tr=xpath=(//td[@align='right'])[1]
+homepage.leftmenu.tr=xpath=(//tr[@valign='top'])[1]
+
+#*********************
+#this is a login xpath
+signin.username.text=xpath=//input[@name='userName']
+signin.password.text=xpath=//input[@name='password']
+signin.singin.btn=xpath=//input[@name='login']
+signin.sign-in.txt=xpath=//img[@src='/images/masts/mast_signon.gif']

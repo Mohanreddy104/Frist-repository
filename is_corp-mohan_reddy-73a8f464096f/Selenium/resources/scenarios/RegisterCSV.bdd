@@ -1,0 +1,8 @@
+SCENARIO: New tour register
+META-DATA: {"dataFile":"./resources/testData/Register.xls","description":"use valid details and fill the registration form"}
+Given User register
+When click on register button
+And User enter user data fname '${fname}' and lname '${lname}' and phone '${phone}' and email '${email}' and address '${address}'
+Then User click on continue button 
+Then user register successfully 
+END

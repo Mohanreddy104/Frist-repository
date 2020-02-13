@@ -1,0 +1,52 @@
+17:03:32 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+17:03:32 loading BDD file: ./resources/scenarios/login.bdd
+17:03:32 total test found: 1
+17:03:32 
+
+Executing scenario: user successfully click on logout button - 
+17:03:32 Test Data{username=mohan, password=mohan, __index=1}
+17:03:32 pkg: com.qmetry.qaf.automation.step
+17:03:32 pkg: com.newtour.steps
+17:03:32 Found duplicate step to load [] with [lower] prority then []
+17:03:32 Found duplicate step to load [] with [lower] prority then []
+17:03:32 Found duplicate step to load [] with [lower] prority then []
+17:03:32 Found duplicate step to load [] with [lower] prority then []
+17:03:32 Found duplicate step to load [] with [lower] prority then []
+17:03:32 Invoking Teststep: Given  Open the home page
+17:03:32 Invoking Teststep: get {url} with arguments: [/]
+17:03:39 Completed Teststep: get {url} with arguments: [/]
+17:03:39 Completed Teststep: Given  Open the home page
+17:03:39 Invoking Teststep: When  user login with valid username '${username}' and valid password '${password}' with arguments: [${username}, ${password}]
+17:03:39 Invoking Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+17:03:39 Completed Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+17:03:39 Invoking Teststep: sendKeys {text} into {loc} with arguments: [mohan, signin.username.text]
+17:03:39 Completed Teststep: sendKeys {text} into {loc} with arguments: [mohan, signin.username.text]
+17:03:39 Invoking Teststep: sendKeys {text} into {loc} with arguments: [mohan, signin.password.text]
+17:03:39 Completed Teststep: sendKeys {text} into {loc} with arguments: [mohan, signin.password.text]
+17:03:39 Invoking Teststep: click on {loc} with arguments: [signin.singin.btn]
+17:03:51 Completed Teststep: click on {loc} with arguments: [signin.singin.btn]
+17:03:51 Completed Teststep: When  user login with valid username 'mohan' and valid password 'mohan' with arguments: [${username}, ${password}]
+17:03:51 Invoking Teststep: Then  user Click on signin button
+17:03:52 Completed Teststep: Then  user Click on signin button
+17:03:52 Competed scenario: user successfully click on logout button with status SUCCESS
+17:03:52 
+
+Executing scenario: user successfully click on logout button - 
+17:03:52 Test Data{username=guest, password=guest, __index=2}
+17:03:52 Invoking Teststep: Given  Open the home page
+17:03:52 Invoking Teststep: get {url} with arguments: [/]
+17:03:53 Completed Teststep: get {url} with arguments: [/]
+17:03:53 Completed Teststep: Given  Open the home page
+17:03:53 Invoking Teststep: When  user login with valid username '${username}' and valid password '${password}' with arguments: [${username}, ${password}]
+17:03:53 Invoking Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+17:03:53 Completed Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+17:03:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+17:03:53 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+17:03:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+17:03:53 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+17:03:53 Invoking Teststep: click on {loc} with arguments: [signin.singin.btn]
+17:04:17 Completed Teststep: click on {loc} with arguments: [signin.singin.btn]
+17:04:17 Completed Teststep: When  user login with valid username 'guest' and valid password 'guest' with arguments: [${username}, ${password}]
+17:04:17 Invoking Teststep: Then  user Click on signin button
+17:04:24 Completed Teststep: Then  user Click on signin button
+17:04:24 Competed scenario: user successfully click on logout button with status SUCCESS

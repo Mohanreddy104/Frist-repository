@@ -1,0 +1,189 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openBrowser",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "[/]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "get",
+              "args": [
+                "{url=http://www.newtours.demoaut.com/}"
+              ],
+              "result": "null",
+              "subLogs": [],
+              "duration": 955
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickonregister",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[text()='REGISTER'], using=xpath}"
+          ],
+          "result": "[id: 8ff166d2-4e3f-4a24-8e25-68bcf20e16e0]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='REGISTER'], using=xpath}"
+          ],
+          "result": "id: 8ff166d2-4e3f-4a24-8e25-68bcf20e16e0",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='REGISTER']",
+            "{\"id\":\"8ff166d2-4e3f-4a24-8e25-68bcf20e16e0\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[register.register.link]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//a[text()='REGISTER'], using=xpath}"
+              ],
+              "result": "id: 8ff166d2-4e3f-4a24-8e25-68bcf20e16e0",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //a[text()='REGISTER']",
+                "{\"id\":\"8ff166d2-4e3f-4a24-8e25-68bcf20e16e0\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 938
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "registeruserData",
+      "args": [
+        "[${fname}, ${lname}, ${phone}, ${email}, ${address}]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then User click on continue button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user register successfully",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User register",
+      "type": "TestStepPass",
+      "duration": 957,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "get '/'",
+          "type": "TestStepPass",
+          "duration": 956,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When click on register button",
+      "type": "TestStepPass",
+      "duration": 1003,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'register.register.link'",
+          "type": "TestStepPass",
+          "duration": 949,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And User enter user data fname 'guest' and lname 'bkd' and phone '1245635552' and email 'nfbdnkjfbd' and address 'dfdsjjdsh'",
+      "type": "TestStepFail",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Unable to invoke JavaStep with given arguments: registeruserData[${fname}, ${lname}, ${phone}, ${email}, ${address}]\nat ",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then User click on continue button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user register successfully",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: registeruserData[${fname}, ${lname}, ${phone}, ${email}, ${address}]\nat \r\n\tat .And User enter user data fname '${fname}' and lname '${lname}' and phone '${phone}' and email '${email}' and address '${address}'(resources/scenarios/RegisterCSV.bdd:5)\r\n\tat com.newtour.steps.RegisterCSVSteps.registeruserData(com.newtour.steps.RegisterCSVSteps:0)\r\n"
+}

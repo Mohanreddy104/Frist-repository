@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>enter xml data to Register page it register successfully </div><div  class="pass"><span class="pass-label">P </span>Thank you for registering message is display <a href="../img/RegisterNewUser_1b4u7578z825g54932.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="web" duration-ms="180706" started-at="2019-10-22T05:56:41Z" finished-at="2019-10-22T05:59:42Z">
+    <groups>
+    </groups>
+    <test name="chrome Test" duration-ms="180706" started-at="2019-10-22T05:56:41Z" finished-at="2019-10-22T05:59:42Z">
+      <class name="com.newtour.test.RegisterBeanTest">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]" name="setupSuit" is-config="true" duration-ms="21" started-at="2019-10-22T11:26:41Z" finished-at="2019-10-22T11:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d20e46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]" name="setupTest" is-config="true" duration-ms="2" started-at="2019-10-22T11:26:41Z" finished-at="2019-10-22T11:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d20e46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]" name="setup" is-config="true" duration-ms="5" started-at="2019-10-22T11:26:41Z" finished-at="2019-10-22T11:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d20e46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="registerNewUser()[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]" name="registerNewUser" duration-ms="180607" started-at="2019-10-22T11:26:41Z" finished-at="2019-10-22T11:29:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>enter xml data to Register page it register successfully </div><div  class="pass"><span class="pass-label">P </span>Thank you for registering message is display <a href="../img/RegisterNewUser_1b4u7578z825g54932.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-10-22T11:26:41Z" finished-at="2019-10-22T11:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.newtour.test.RegisterBeanTest.registerNewUser()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d20e46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-10-22T11:29:41Z" finished-at="2019-10-22T11:29:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d20e46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=registerNewUser status=SUCCESS method=RegisterBeanTest.registerNewUser()[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19] output=<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>enter xml data to Register page it register successfully </div><div  class="pass"><span class="pass-label">P </span>Thank you for registering message is display <a href="../img/RegisterNewUser_1b4u7578z825g54932.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-22T11:29:41Z" finished-at="2019-10-22T11:29:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d20e46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]" name="afterTest" is-config="true" duration-ms="47" started-at="2019-10-22T11:29:42Z" finished-at="2019-10-22T11:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d20e46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.newtour.test.RegisterBeanTest@480bdb19]" name="afterSuit" is-config="true" duration-ms="1" started-at="2019-10-22T11:29:42Z" finished-at="2019-10-22T11:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d20e46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.newtour.test.RegisterBeanTest -->
+    </test> <!-- chrome Test -->
+  </suite> <!-- web -->
+</testng-results>

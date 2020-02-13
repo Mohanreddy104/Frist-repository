@@ -1,0 +1,399 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "open_Home_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "[/]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "get",
+              "args": [
+                "{url=http://www.newtours.demoaut.com/}"
+              ],
+              "result": "null",
+              "subLogs": [],
+              "duration": 2405
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "login_Valid_Username_and_Password",
+      "args": [
+        "[${signin.data.username}, ${signin.data.password}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest, signin.username.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='userName'], using=xpath}"
+              ],
+              "result": "id: 540d94b2-aba7-4bf4-b3f3-062a7d662c3f",
+              "subLogs": [],
+              "duration": 19
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='userName']",
+                "{\"value\":[\"guest\"],\"id\":\"540d94b2-aba7-4bf4-b3f3-062a7d662c3f\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 58
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[guest, signin.password.text]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='password'], using=xpath}"
+              ],
+              "result": "id: 251726b4-73f8-43f7-8144-98633be339e1",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@name='password']",
+                "{\"value\":[\"guest\"],\"id\":\"251726b4-73f8-43f7-8144-98633be339e1\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 40
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[signin.singin.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='login'], using=xpath}"
+              ],
+              "result": "id: 482a937e-1048-4350-a183-2ceb061c9f9d",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='login']",
+                "{\"id\":\"482a937e-1048-4350-a183-2ceb061c9f9d\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 173662
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[logout.findflight.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='findFlights'], using=xpath}"
+              ],
+              "result": "id: 852f7a49-6a82-42e6-8216-01d9cd85cf0e",
+              "subLogs": [],
+              "duration": 31
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='findFlights']",
+                "{\"id\":\"852f7a49-6a82-42e6-8216-01d9cd85cf0e\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1014
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[logout.reserveflights.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='reserveFlights'], using=xpath}"
+              ],
+              "result": "id: 4cfd39ae-422e-442a-832f-225b04fa20f9",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='reserveFlights']",
+                "{\"id\":\"4cfd39ae-422e-442a-832f-225b04fa20f9\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1314
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[logout.buyflights.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@name='buyFlights'], using=xpath}"
+              ],
+              "result": "id: 00ff0a81-3c1b-44dd-8d3a-87b202fd6345",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@name='buyFlights']",
+                "{\"id\":\"00ff0a81-3c1b-44dd-8d3a-87b202fd6345\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1678
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click_On_Logout",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[logout.logout.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//img[@src='/images/forms/Logout.gif'], using=xpath}"
+              ],
+              "result": "id: 21ce039b-dc16-4f4b-825f-90b5cc8c383f",
+              "subLogs": [],
+              "duration": 24
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //img[@src='/images/forms/Logout.gif']",
+                "{\"id\":\"21ce039b-dc16-4f4b-825f-90b5cc8c383f\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1037
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verify_LogOut",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "verifyPresent",
+          "args": [
+            "[signin.singin.btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//input[@name='login'], using=xpath}"
+              ],
+              "result": "[id: 5181d601-f88f-45d6-978c-05936bab41fd]",
+              "subLogs": [],
+              "duration": 19
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  Open the home page",
+      "type": "TestStepPass",
+      "duration": 5698,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "get '/'",
+          "type": "TestStepPass",
+          "duration": 5691,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When  user enter the username 'guest' and password 'guest'",
+      "type": "TestStepPass",
+      "duration": 177906,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'guest' into 'signin.username.text'",
+          "type": "TestStepPass",
+          "duration": 89,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'guest' into 'signin.password.text'",
+          "type": "TestStepPass",
+          "duration": 57,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'signin.singin.btn'",
+          "type": "TestStepPass",
+          "duration": 173681,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'logout.findflight.btn'",
+          "type": "TestStepPass",
+          "duration": 1048,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'logout.reserveflights.btn'",
+          "type": "TestStepPass",
+          "duration": 1332,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'logout.buyflights.btn'",
+          "type": "TestStepPass",
+          "duration": 1697,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And click on logout button",
+      "type": "TestStepPass",
+      "duration": 1066,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'logout.logout.btn'",
+          "type": "TestStepPass",
+          "duration": 1064,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify the logout",
+      "type": "TestStepPass",
+      "duration": 570,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "verify 'signin.singin.btn' is present",
+          "type": "TestStepPass",
+          "duration": 323,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected By.xpath: //input[@name='login'] present : Actual By.xpath: //input[@name='login'] present",
+              "type": "Pass",
+              "screenshot": "../img/UserSuccessfullyClickOnLogoutButton_1hu8dzf9rmyty54055.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        },
+        {
+          "message": "user is successfully navigating to the login page",
+          "type": "Pass",
+          "screenshot": "../img/UserSuccessfullyClickOnLogoutButton_18ne0dq8h6tnf54056.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

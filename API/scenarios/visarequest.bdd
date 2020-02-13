@@ -1,0 +1,10 @@
+# visa Request with BDD file
+SCENARIO: visa request with repository.properties
+META-DATA: {"description": "visa request with properties file ,using visa.request"}
+	Given store '/get-leave-reasons' into 'endpointUrl'
+	And  store 'POST' into 'method'
+	And  store '166e361750d29bee4c6e814dac0159c5' into 'tokenId'
+	When user requests "new.request"
+	Then response should have status code 200
+	Then  response should have status 'ok'
+END

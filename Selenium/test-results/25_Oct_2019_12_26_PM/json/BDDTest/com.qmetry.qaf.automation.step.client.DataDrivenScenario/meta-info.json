@@ -1,0 +1,54 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "fname\tlname\tphone\temail\taddress": "mohan\treddy\t122354221\thfbdsknhjfbghdshj@gmail.com\tdhfgdkjhvdskjf",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/testData/Register.csv",
+        "description": "use valid details and fill the registration form",
+        "groups": [],
+        "lineNo": 1.0,
+        "name": "New tour register",
+        "referece": "resources/scenarios/RegisterCSV.bdd",
+        "resultFileName": "NewTourRegister",
+        "sign": "resources.scenarios.RegisterCSV.bdd.New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1572006374696,
+      "duration": 7001,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "fname\tlname\tphone\temail\taddress": "fjhvgdskj\tfhjbd\t5456\tdnfmd@gmail.com\tdhfjkdsa",
+          "__index": 2
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/testData/Register.csv",
+        "description": "use valid details and fill the registration form",
+        "groups": [],
+        "lineNo": 1,
+        "name": "New tour register",
+        "referece": "resources/scenarios/RegisterCSV.bdd",
+        "resultFileName": "NewTourRegisterEUSTEdehdG",
+        "sign": "resources.scenarios.RegisterCSV.bdd.New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1572006382062,
+      "duration": 2107,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

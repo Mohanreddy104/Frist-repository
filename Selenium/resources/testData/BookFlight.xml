@@ -1,0 +1,21 @@
+<root>
+	<data>
+		<bookFlight>
+			<user>
+				<firstname></firstname>
+				<lastname></lastname>
+
+			</user>
+			<user>
+				<firstname>!@#$$%</firstname>
+				<lastname>5678</lastname>
+
+			</user>
+			<user>
+				<firstname>ABCD</firstname>
+				<lastname>EFGH</lastname>
+
+			</user>
+		</bookFlight>
+	</data>
+</root>

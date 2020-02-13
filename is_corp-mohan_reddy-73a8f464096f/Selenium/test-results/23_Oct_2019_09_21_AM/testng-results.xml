@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="1" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour application</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When  user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'signin.username.text' to be present</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="warn"><span class="warn-label">W </span>And click on signin button :: Not Found.</div><div  class="teststep"><span class="teststep-label">T </span>When enter all the data in find a flight page type '${data.flightFinder.user.tripType}' and passengers '${data.flightFinder.user.passengers}' and DepartingFrom '${data.flightFinder.user.departing}' and on '${data.flightFinder.user.fromDay}' and Arrivingin '${data.flightFinder.user.arriving}' and return '${data.flightFinder.user.returningDay}'</div><div  class="teststep"><span class="teststep-label">T </span>And click continue button</div><div  class="teststep"><span class="teststep-label">T </span>And click on reserveflight button</div><div  class="teststep"><span class="teststep-label">T </span>And  click on secureparchase button</div><div  class="teststep"><span class="teststep-label">T </span>Then verify user is entering all the values successfully</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF BDD" duration-ms="22464" started-at="2019-10-23T09:21:51Z" finished-at="2019-10-23T09:22:14Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="22464" started-at="2019-10-23T09:21:51Z" finished-at="2019-10-23T09:22:14Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="setupSuit" is-config="true" duration-ms="21" started-at="2019-10-23T14:51:51Z" finished-at="2019-10-23T14:51:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="setupTest" is-config="true" duration-ms="1" started-at="2019-10-23T14:51:51Z" finished-at="2019-10-23T14:51:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="setup" is-config="true" duration-ms="5" started-at="2019-10-23T14:51:51Z" finished-at="2019-10-23T14:51:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="setupMethod" is-config="true" duration-ms="1" started-at="2019-10-23T14:51:51Z" finished-at="2019-10-23T14:51:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="SKIP" signature="user is able to enter all the data on find a flight page successfully( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="user is able to enter all the data on find a flight page successfully" duration-ms="22250" started-at="2019-10-23T14:51:51Z" description="enter data on find a flight page " finished-at="2019-10-23T14:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{file.encoding.pkg=sun.io, file.encoding=Cp1252, file.separator=\, user.country=US, user.script=null, user.dir=D:\OnbordingProject\Project\Selenium, user.variant=null, user.home=C:\Users\mohanreddy.p, user.timezone=Asia/Calcutta, user.name=Mohan.Reddy, user.language=en, selenium.screenshots.relative.path=../img, selenium.screenshots.dir=test-results/23_Oct_2019_09_21_AM/img, basedir=D:\OnbordingProject\Project\Selenium, os.arch=amd64, os.name=Windows 10, os.version=10.0, surefire.real.class.path=D:\OnbordingProject\Project\Selenium\test-results\surefire\surefirebooter983531091149074666.jar, surefire.test.class.path=D:\OnbordingProject\Project\Selenium\target\test-classes, line.separator=
+, log4j.configuration=file:///D:\OnbordingProject\Project\Selenium/resources/log4j.properties, org.uncommons.reportng.xml-dialect=testng, org.uncommons.reportng.escape-output=false, json.report.dir=test-results/23_Oct_2019_09_21_AM/json, json.report.root.dir=test-results, test.results.dir=test-results/23_Oct_2019_09_21_AM/html, awt.toolkit=sun.awt.windows.WToolkit, webdriver.chrome.driver=./resources/drivers/chromedriver.exe, outputDir=test-results/23_Oct_2019_09_21_AM, localRepository=C:\Users\mohanreddy.p\.m2\repository, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.qmetry.qaf.automation.step.StepNotFoundException">
+            <message>
+              <![CDATA[And click on signin button@resources/scenarios/FindAFlight.bdd#5 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.step.StepNotFoundException: And click on signin button@resources/scenarios/FindAFlight.bdd#5 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.
+	at .And click on signin button(resources/scenarios/FindAFlight.bdd:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.step.StepNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour application</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When  user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'signin.username.text' to be present</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="warn"><span class="warn-label">W </span>And click on signin button :: Not Found.</div><div  class="teststep"><span class="teststep-label">T </span>When enter all the data in find a flight page type '${data.flightFinder.user.tripType}' and passengers '${data.flightFinder.user.passengers}' and DepartingFrom '${data.flightFinder.user.departing}' and on '${data.flightFinder.user.fromDay}' and Arrivingin '${data.flightFinder.user.arriving}' and return '${data.flightFinder.user.returningDay}'</div><div  class="teststep"><span class="teststep-label">T </span>And click continue button</div><div  class="teststep"><span class="teststep-label">T </span>And click on reserveflight button</div><div  class="teststep"><span class="teststep-label">T </span>And  click on secureparchase button</div><div  class="teststep"><span class="teststep-label">T </span>Then verify user is entering all the values successfully</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- user is able to enter all the data on find a flight page successfully -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-10-23T14:52:14Z" finished-at="2019-10-23T14:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=user is able to enter all the data on find a flight page successfully status=SKIP method=resources.scenarios.FindAFlight.bdd.user is able to enter all the data on find a flight page successfully( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open new tour application</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When  user login with valid 'guest' and valid 'guest'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'signin.username.text' to be present</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.username.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'guest' into 'signin.password.text'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signin.singin.btn'</div></div><div  class="warn"><span class="warn-label">W </span>And click on signin button :: Not Found.</div><div  class="teststep"><span class="teststep-label">T </span>When enter all the data in find a flight page type '${data.flightFinder.user.tripType}' and passengers '${data.flightFinder.user.passengers}' and DepartingFrom '${data.flightFinder.user.departing}' and on '${data.flightFinder.user.fromDay}' and Arrivingin '${data.flightFinder.user.arriving}' and return '${data.flightFinder.user.returningDay}'</div><div  class="teststep"><span class="teststep-label">T </span>And click continue button</div><div  class="teststep"><span class="teststep-label">T </span>And click on reserveflight button</div><div  class="teststep"><span class="teststep-label">T </span>And  click on secureparchase button</div><div  class="teststep"><span class="teststep-label">T </span>Then verify user is entering all the values successfully</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-23T14:52:14Z" finished-at="2019-10-23T14:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="afterTest" is-config="true" duration-ms="72" started-at="2019-10-23T14:52:14Z" finished-at="2019-10-23T14:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="user is able to enter all the data on find a flight page successfully" name="afterSuit" is-config="true" duration-ms="1" started-at="2019-10-23T14:52:14Z" finished-at="2019-10-23T14:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525f1e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAF BDD -->
+</testng-results>

@@ -1,0 +1,30 @@
+14:35:02 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+14:35:02 loading BDD file: ./resources/scenarios/login.bdd
+14:35:02 total test found: 1
+14:35:02 
+
+Executing scenario: user successfully click on logout button - 
+14:35:02 Test Data{username=guest, password=guest, __index=1}
+14:35:02 pkg: com.qmetry.qaf.automation.step
+14:35:03 pkg: com.newtour.steps
+14:35:03 Found duplicate step to load [] with [lower] prority then []
+14:35:03 Found duplicate step to load [] with [lower] prority then []
+14:35:03 Found duplicate step to load [] with [lower] prority then []
+14:35:03 Found duplicate step to load [] with [lower] prority then []
+14:35:03 Invoking Teststep: Given  Open the home page
+14:35:03 Invoking Teststep: get {url} with arguments: [/]
+14:35:22 Completed Teststep: get {url} with arguments: [/]
+14:35:22 Completed Teststep: Given  Open the home page
+14:35:22 Invoking Teststep: When  user login with valid username '${username}' and valid password '${password}' with arguments: [${username}, ${password}]
+14:35:22 Invoking Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+14:35:23 Completed Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+14:35:23 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+14:35:23 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+14:35:23 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+14:35:23 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+14:35:23 Invoking Teststep: click on {loc} with arguments: [signin.singin.btn]
+14:35:29 Completed Teststep: click on {loc} with arguments: [signin.singin.btn]
+14:35:29 Completed Teststep: When  user login with valid username 'guest' and valid password 'guest' with arguments: [${username}, ${password}]
+14:35:29 Invoking Teststep: Then  user Click on signin button
+14:35:29 Completed Teststep: Then  user Click on signin button
+14:35:29 Competed scenario: user successfully click on logout button with status SUCCESS

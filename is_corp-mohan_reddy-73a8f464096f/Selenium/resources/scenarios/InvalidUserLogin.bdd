@@ -1,0 +1,6 @@
+SCENARIO: user succesfully enter invalid user name and password
+META-DATA: {"dataFile":"resources/testData/InvalidSignin.xml","description":"invalid signin "}
+Given Invalid login 
+When user login with invalid '${invalidSignin.data.username}' and invalid '${invalidSignin.data.password}'
+Then user is not able to login
+END

@@ -1,0 +1,41 @@
+13:42:37 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+13:42:37 loading BDD file: ./resources/scenarios/logout.bdd
+13:42:37 total test found: 1
+13:42:37 
+
+Executing scenario: user successfully click on logout button - checking the logout button
+13:42:37 Test Data{file.encoding.pkg=sun.io, file.encoding=Cp1252, file.separator=\, user.country=US, user.script=null, user.dir=D:\OnbordingProject\Project\Selenium, user.variant=null, user.home=C:\Users\mohanreddy.p, user.timezone=Asia/Calcutta, user.name=Mohan.Reddy, user.language=en, selenium.screenshots.relative.path=../img, selenium.screenshots.dir=test-results/19_Oct_2019_08_12_AM/img, basedir=D:\OnbordingProject\Project\Selenium, os.arch=amd64, os.name=Windows 10, os.version=10.0, surefire.real.class.path=D:\OnbordingProject\Project\Selenium\test-results\surefire\surefirebooter6299465452830184646.jar, surefire.test.class.path=D:\OnbordingProject\Project\Selenium\target\test-classes, line.separator=
+, log4j.configuration=file:///D:\OnbordingProject\Project\Selenium/resources/log4j.properties, org.uncommons.reportng.xml-dialect=testng, org.uncommons.reportng.escape-output=false, json.report.dir=test-results/19_Oct_2019_08_12_AM/json, json.report.root.dir=test-results, test.results.dir=test-results/19_Oct_2019_08_12_AM/html, awt.toolkit=sun.awt.windows.WToolkit, webdriver.chrome.driver=./resources/drivers/chromedriver.exe, outputDir=test-results/19_Oct_2019_08_12_AM, localRepository=C:\Users\mohanreddy.p\.m2\repository, signin.data.username=guest, signin.data.password=guest, __index=1}
+13:42:37 pkg: com.qmetry.qaf.automation.step
+13:42:37 pkg: com.newtour.steps
+13:42:37 Found duplicate step to load [] with [lower] prority then []
+13:42:37 Found duplicate step to load [] with [lower] prority then []
+13:42:37 Found duplicate step to load [] with [lower] prority then []
+13:42:37 Found duplicate step to load [] with [lower] prority then []
+13:42:37 Invoking Teststep: Given  Open the home page
+13:42:37 Invoking Teststep: get {url} with arguments: [/]
+13:42:43 Completed Teststep: get {url} with arguments: [/]
+13:42:43 Completed Teststep: Given  Open the home page
+13:42:43 Invoking Teststep: When  user enter the username '${signin.data.username}' and password '${signin.data.password}' with arguments: [${signin.data.username}, ${signin.data.password}]
+13:42:43 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+13:42:43 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+13:42:43 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+13:42:43 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+13:42:43 Invoking Teststep: click on {loc} with arguments: [signin.singin.btn]
+13:45:37 Completed Teststep: click on {loc} with arguments: [signin.singin.btn]
+13:45:37 Invoking Teststep: click on {loc} with arguments: [logout.findflight.btn]
+13:45:38 Completed Teststep: click on {loc} with arguments: [logout.findflight.btn]
+13:45:38 Invoking Teststep: click on {loc} with arguments: [logout.reserveflights.btn]
+13:45:39 Completed Teststep: click on {loc} with arguments: [logout.reserveflights.btn]
+13:45:39 Invoking Teststep: click on {loc} with arguments: [logout.buyflights.btn]
+13:45:41 Completed Teststep: click on {loc} with arguments: [logout.buyflights.btn]
+13:45:41 Completed Teststep: When  user enter the username 'guest' and password 'guest' with arguments: [${signin.data.username}, ${signin.data.password}]
+13:45:41 Invoking Teststep: And click on logout button
+13:45:41 Invoking Teststep: click on {loc} with arguments: [logout.logout.btn]
+13:45:42 Completed Teststep: click on {loc} with arguments: [logout.logout.btn]
+13:45:42 Completed Teststep: And click on logout button
+13:45:42 Invoking Teststep: Then verify the logout
+13:45:42 Invoking Teststep: verify {loc} is present with arguments: [signin.singin.btn]
+13:45:42 Completed Teststep: verify {loc} is present with arguments: [signin.singin.btn]
+13:45:42 Completed Teststep: Then verify the logout
+13:45:42 Competed scenario: user successfully click on logout button with status SUCCESS

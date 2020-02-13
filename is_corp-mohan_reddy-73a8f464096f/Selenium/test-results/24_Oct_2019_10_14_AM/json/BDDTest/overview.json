@@ -1,0 +1,35 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Jan-2019 19:18:14"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "./resources/scenarios/Login.bdd",
+      "baseurl": "http://www.newtours.demoaut.com/"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_201",
+      "os.arch": "amd64",
+      "host": "ICPL13076",
+      "os.name": "Windows 10",
+      "user.name": "Mohan.Reddy",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1571912109353,
+  "endTime": 1571912109422
+}

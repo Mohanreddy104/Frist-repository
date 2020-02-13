@@ -1,0 +1,59 @@
+14:47:35 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+14:47:35 loading BDD file: ./resources/scenarios/FindAFlight.bdd
+14:47:35 total test found: 1
+14:47:35 
+
+Executing scenario: user is able to enter all the data on find a flight page successfully - enter data on find a flight page 
+14:47:35 Test Data{file.encoding.pkg=sun.io, file.encoding=Cp1252, file.separator=\, user.country=US, user.script=null, user.dir=D:\OnbordingProject\Project\Selenium, user.variant=null, user.home=C:\Users\mohanreddy.p, user.timezone=Asia/Calcutta, user.name=Mohan.Reddy, user.language=en, selenium.screenshots.relative.path=../img, selenium.screenshots.dir=test-results/23_Oct_2019_09_17_AM/img, basedir=D:\OnbordingProject\Project\Selenium, os.arch=amd64, os.name=Windows 10, os.version=10.0, surefire.real.class.path=D:\OnbordingProject\Project\Selenium\test-results\surefire\surefirebooter1150438415475658499.jar, surefire.test.class.path=D:\OnbordingProject\Project\Selenium\target\test-classes, line.separator=
+, log4j.configuration=file:///D:\OnbordingProject\Project\Selenium/resources/log4j.properties, org.uncommons.reportng.xml-dialect=testng, org.uncommons.reportng.escape-output=false, json.report.dir=test-results/23_Oct_2019_09_17_AM/json, json.report.root.dir=test-results, test.results.dir=test-results/23_Oct_2019_09_17_AM/html, awt.toolkit=sun.awt.windows.WToolkit, webdriver.chrome.driver=./resources/drivers/chromedriver.exe, outputDir=test-results/23_Oct_2019_09_17_AM, localRepository=C:\Users\mohanreddy.p\.m2\repository, __index=1}
+14:47:35 pkg: com.qmetry.qaf.automation.step
+14:47:35 pkg: com.newtour.steps
+14:47:35 Found duplicate step to load [] with [lower] prority then []
+14:47:35 Found duplicate step to load [] with [lower] prority then []
+14:47:35 Found duplicate step to load [] with [lower] prority then []
+14:47:35 Found duplicate step to load [] with [lower] prority then []
+14:47:35 Invoking Teststep: Given user is in home page
+14:47:35 Invoking Teststep: get {url} with arguments: [/]
+14:48:01 Completed Teststep: get {url} with arguments: [/]
+14:48:01 Completed Teststep: Given user is in home page
+14:48:01 Invoking Teststep: When  enter user name '${signin.data.username}' and password '${signin.data.password}' with arguments: [${signin.data.username}, ${signin.data.password}]
+14:48:01 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, logout.username.text]
+14:48:04 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, logout.username.text]
+14:48:04 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, logout.password.text]
+14:48:04 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, logout.password.text]
+14:48:04 Completed Teststep: When  enter user name 'guest' and password 'guest' with arguments: [${signin.data.username}, ${signin.data.password}]
+14:48:04 Invoking Teststep: And click on signin button
+14:48:04 Invoking Teststep: click on {loc} with arguments: [logout.singin.btn]
+14:48:14 Completed Teststep: click on {loc} with arguments: [logout.singin.btn]
+14:48:14 Completed Teststep: And click on signin button
+14:48:14 Invoking Teststep: When enter all the data in find a flight page type '${data.flightFinder.user.tripType}' and passengers '${data.flightFinder.user.passengers}' and DepartingFrom '${data.flightFinder.user.departing}' and on '${data.flightFinder.user.fromDay}' and Arrivingin '${data.flightFinder.user.arriving}' and return '${data.flightFinder.user.returningDay}' with arguments: [${data.flightFinder.user.tripType}, ${data.flightFinder.user.passengers}, ${data.flightFinder.user.departing}, ${data.flightFinder.user.fromDay}, ${data.flightFinder.user.arriving}, ${data.flightFinder.user.returningDay}]
+14:48:14 Invoking Teststep: sendKeys {text} into {loc} with arguments: [roundtrip, flight.roundtrip.rbtn]
+14:48:14 Completed Teststep: sendKeys {text} into {loc} with arguments: [roundtrip, flight.roundtrip.rbtn]
+14:48:14 Invoking Teststep: sendKeys {text} into {loc} with arguments: [1, flight.passengers.text]
+14:48:14 Completed Teststep: sendKeys {text} into {loc} with arguments: [1, flight.passengers.text]
+14:48:14 Invoking Teststep: sendKeys {text} into {loc} with arguments: [PORTLAND, flight.departing.text]
+14:48:14 Completed Teststep: sendKeys {text} into {loc} with arguments: [PORTLAND, flight.departing.text]
+14:48:14 Invoking Teststep: sendKeys {text} into {loc} with arguments: [6, flight.formday.text]
+14:48:14 Completed Teststep: sendKeys {text} into {loc} with arguments: [6, flight.formday.text]
+14:48:14 Invoking Teststep: sendKeys {text} into {loc} with arguments: [New York, flight.arriving.text]
+14:48:14 Completed Teststep: sendKeys {text} into {loc} with arguments: [New York, flight.arriving.text]
+14:48:14 Invoking Teststep: sendKeys {text} into {loc} with arguments: [11, flight.returningday.text]
+14:48:14 Completed Teststep: sendKeys {text} into {loc} with arguments: [11, flight.returningday.text]
+14:48:14 Completed Teststep: When enter all the data in find a flight page type 'roundtrip' and passengers '1' and DepartingFrom 'PORTLAND' and on '6' and Arrivingin 'New York' and return '11' with arguments: [${data.flightFinder.user.tripType}, ${data.flightFinder.user.passengers}, ${data.flightFinder.user.departing}, ${data.flightFinder.user.fromDay}, ${data.flightFinder.user.arriving}, ${data.flightFinder.user.returningDay}]
+14:48:14 Invoking Teststep: And click continue button
+14:48:14 Invoking Teststep: click on {loc} with arguments: [flight.findflight.btn]
+14:48:15 Completed Teststep: click on {loc} with arguments: [flight.findflight.btn]
+14:48:15 Completed Teststep: And click continue button
+14:48:15 Invoking Teststep: And click on reserveflight button
+14:48:15 Invoking Teststep: click on {loc} with arguments: [flight.reserveflights.btn]
+14:48:16 Completed Teststep: click on {loc} with arguments: [flight.reserveflights.btn]
+14:48:16 Completed Teststep: And click on reserveflight button
+14:48:16 Invoking Teststep: And  click on secureparchase button
+14:48:16 Invoking Teststep: click on {loc} with arguments: [bookingflight.secureparchase.btn]
+14:48:18 Completed Teststep: click on {loc} with arguments: [bookingflight.secureparchase.btn]
+14:48:18 Completed Teststep: And  click on secureparchase button
+14:48:18 Invoking Teststep: Then verify user is entering all the values successfully
+14:48:18 Invoking Teststep: verify {loc} is present with arguments: [bookinglight.backtoflights.btn]
+14:48:18 Completed Teststep: verify {loc} is present with arguments: [bookinglight.backtoflights.btn]
+14:48:19 Completed Teststep: Then verify user is entering all the values successfully
+14:48:19 Competed scenario: user is able to enter all the data on find a flight page successfully with status SUCCESS

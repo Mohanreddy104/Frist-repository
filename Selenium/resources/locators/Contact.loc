@@ -1,0 +1,4 @@
+contact.contactbtn.btn=xpath=//a[text()='CONTACT']
+contact.verifymessage.img=xpath=(//font)[5]
+contact.backtohome.btn=xpath=//img[@src='/images/forms/home.gif']
+//img[@src='/images/masts/mast_construction.gif']

@@ -1,0 +1,46 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "resources/testData/login.xls",
+        "description": "",
+        "groups": [],
+        "lineNo": 1.0,
+        "name": "New tour login",
+        "referece": "resources/scenarios/login.bdd",
+        "resultFileName": "NewTourLogin",
+        "sheetName": "Login",
+        "sign": "resources.scenarios.login.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1571829127982,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "resources/testData/login.xls",
+        "description": "",
+        "groups": [],
+        "lineNo": 1,
+        "name": "New tour login",
+        "referece": "resources/scenarios/login.bdd",
+        "resultFileName": "NewTourLoginPAQKVUvVcV",
+        "sheetName": "Login",
+        "sign": "resources.scenarios.login.bdd.New tour login( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1571829182598,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

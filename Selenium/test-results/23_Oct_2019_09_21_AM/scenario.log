@@ -1,0 +1,38 @@
+14:51:51 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+14:51:51 loading BDD file: ./resources/scenarios/FindAFlight.bdd
+14:51:51 total test found: 1
+14:51:51 
+
+Executing scenario: user is able to enter all the data on find a flight page successfully - enter data on find a flight page 
+14:51:51 Test Data{file.encoding.pkg=sun.io, file.encoding=Cp1252, file.separator=\, user.country=US, user.script=null, user.dir=D:\OnbordingProject\Project\Selenium, user.variant=null, user.home=C:\Users\mohanreddy.p, user.timezone=Asia/Calcutta, user.name=Mohan.Reddy, user.language=en, selenium.screenshots.relative.path=../img, selenium.screenshots.dir=test-results/23_Oct_2019_09_21_AM/img, basedir=D:\OnbordingProject\Project\Selenium, os.arch=amd64, os.name=Windows 10, os.version=10.0, surefire.real.class.path=D:\OnbordingProject\Project\Selenium\test-results\surefire\surefirebooter983531091149074666.jar, surefire.test.class.path=D:\OnbordingProject\Project\Selenium\target\test-classes, line.separator=
+, log4j.configuration=file:///D:\OnbordingProject\Project\Selenium/resources/log4j.properties, org.uncommons.reportng.xml-dialect=testng, org.uncommons.reportng.escape-output=false, json.report.dir=test-results/23_Oct_2019_09_21_AM/json, json.report.root.dir=test-results, test.results.dir=test-results/23_Oct_2019_09_21_AM/html, awt.toolkit=sun.awt.windows.WToolkit, webdriver.chrome.driver=./resources/drivers/chromedriver.exe, outputDir=test-results/23_Oct_2019_09_21_AM, localRepository=C:\Users\mohanreddy.p\.m2\repository, __index=1}
+14:51:51 pkg: com.qmetry.qaf.automation.step
+14:51:52 pkg: com.newtour.steps
+14:51:53 Found duplicate step to load [] with [lower] prority then []
+14:51:53 Found duplicate step to load [] with [lower] prority then []
+14:51:53 Found duplicate step to load [] with [lower] prority then []
+14:51:53 Found duplicate step to load [] with [lower] prority then []
+14:51:53 Invoking Teststep: Given user open new tour application
+14:51:53 Invoking Teststep: get {url} with arguments: [/]
+14:52:01 Completed Teststep: get {url} with arguments: [/]
+14:52:01 Completed Teststep: Given user open new tour application
+14:52:01 Invoking Teststep: When  user login with valid '${signin.data.username}' and valid '${signin.data.password}' with arguments: [${signin.data.username}, ${signin.data.password}]
+14:52:01 Invoking Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+14:52:01 Completed Teststep: wait until {loc} to be present with arguments: [signin.username.text]
+14:52:01 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+14:52:01 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.username.text]
+14:52:01 Invoking Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+14:52:01 Completed Teststep: sendKeys {text} into {loc} with arguments: [guest, signin.password.text]
+14:52:01 Invoking Teststep: click on {loc} with arguments: [signin.singin.btn]
+14:52:14 Completed Teststep: click on {loc} with arguments: [signin.singin.btn]
+14:52:14 Completed Teststep: When  user login with valid 'guest' and valid 'guest' with arguments: [${signin.data.username}, ${signin.data.password}]
+14:52:14 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="click on signin button")
+public void clickOnSigninButton(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+14:52:14 Competed scenario: user is able to enter all the data on find a flight page successfully with status FAILURE

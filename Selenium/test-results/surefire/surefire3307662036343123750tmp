@@ -1,0 +1,14 @@
+#surefire
+#Mon Jul 29 16:53:46 IST 2019
+selenium.screenshots.dir=test-results/29_Jul_2019_11_23_AM/img
+json.report.dir=test-results/29_Jul_2019_11_23_AM/json
+outputDir=test-results/29_Jul_2019_11_23_AM
+log4j.configuration=file\:///C\:\\Users\\mohanreddy.p\\eclipse-workspace\\QAF-Newtours-project-maven/resources/log4j.properties
+selenium.screenshots.relative.path=../img
+org.uncommons.reportng.xml-dialect=testng
+user.dir=C\:\\Users\\mohanreddy.p\\eclipse-workspace\\QAF-Newtours-project-maven
+localRepository=C\:\\Users\\mohanreddy.p\\.m2\\repository
+basedir=C\:\\Users\\mohanreddy.p\\eclipse-workspace\\QAF-Newtours-project-maven
+test.results.dir=test-results/29_Jul_2019_11_23_AM/html
+org.uncommons.reportng.escape-output=false
+json.report.root.dir=test-results

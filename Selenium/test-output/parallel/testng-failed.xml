@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [parallel]" parallel="methods">
+  <test thread-count="5" verbose="0" name="chrome Test(failed)" parallel="methods">
+    <parameter name="driver.name" value="chromeDriver"/>
+    <classes>
+      <class name="com.pom.test.SigninTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="testSigin"/>
+          <include name="setupSuit"/>
+          <include name="sigin"/>
+          <include name="afterSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.pom.test.SigninTest -->
+    </classes>
+  </test> <!-- chrome Test(failed) -->
+</suite> <!-- Failed suite [parallel] -->

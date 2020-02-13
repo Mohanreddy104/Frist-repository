@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [web]">
+  <test thread-count="5" name="chrome Test(failed)">
+    <classes>
+      <class name="com.pom.test.FindAFlightTest">
+        <methods>
+          <include name="flights"/>
+          <include name="setupTest"/>
+          <include name="flightFinderPage"/>
+          <include name="QAfFlight"/>
+          <include name="setupSuit"/>
+          <include name="afterSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.pom.test.FindAFlightTest -->
+    </classes>
+  </test> <!-- chrome Test(failed) -->
+</suite> <!-- Failed suite [web] -->

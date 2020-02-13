@@ -1,0 +1,62 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "fname": "mohan\t",
+          "lname": "reddy",
+          "phone": 4.5556552256E10,
+          "email": "djfbahdaj",
+          "address": "ahdfah",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/testData/Register.csv",
+        "description": "use valid details and fill the registration form",
+        "groups": [],
+        "lineNo": 1.0,
+        "name": "New tour register",
+        "referece": "resources/scenarios/RegisterCSV.bdd",
+        "resultFileName": "NewTourRegister",
+        "sign": "resources.scenarios.RegisterCSV.bdd.New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1572243976326,
+      "duration": 6380,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "fname": "guest",
+          "lname": "bkd",
+          "phone": 1245635552,
+          "email": "nfbdnkjfbd",
+          "address": "dfdsjjdsh",
+          "__index": 2
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/testData/Register.csv",
+        "description": "use valid details and fill the registration form",
+        "groups": [],
+        "lineNo": 1,
+        "name": "New tour register",
+        "referece": "resources/scenarios/RegisterCSV.bdd",
+        "resultFileName": "NewTourRegisteroXukeGrulZ",
+        "sign": "resources.scenarios.RegisterCSV.bdd.New tour register( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1572243982722,
+      "duration": 1974,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

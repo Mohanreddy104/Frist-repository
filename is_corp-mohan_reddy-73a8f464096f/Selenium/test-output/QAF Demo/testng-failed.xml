@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAF Demo]" parallel="tests">
+  <test thread-count="5" verbose="0" name="chrome Test(failed)" parallel="tests">
+    <parameter name="driver.name" value="chromeDriver"/>
+    <classes>
+      <class name="com.pom.test.SigninTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="sigin"/>
+          <include name="afterSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.pom.test.SigninTest -->
+    </classes>
+  </test> <!-- chrome Test(failed) -->
+  <test thread-count="5" verbose="0" name="firefox Test(failed)" parallel="tests">
+    <parameter name="driver.name" value="firefoxDriver"/>
+    <classes>
+      <class name="com.pom.test.SigninTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="sigin"/>
+          <include name="afterSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.pom.test.SigninTest -->
+    </classes>
+  </test> <!-- firefox Test(failed) -->
+  <test thread-count="5" verbose="0" name="ie Test(failed)" parallel="tests">
+    <parameter name="driver.name" value="iexplorerDriver"/>
+    <classes>
+      <class name="com.pom.test.SigninTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="sigin"/>
+          <include name="afterSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.pom.test.SigninTest -->
+    </classes>
+  </test> <!-- ie Test(failed) -->
+</suite> <!-- Failed suite [QAF Demo] -->

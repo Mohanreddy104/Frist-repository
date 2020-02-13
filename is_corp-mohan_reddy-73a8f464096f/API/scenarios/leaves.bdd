@@ -1,0 +1,10 @@
+# holiday lists with BDD file
+SCENARIO: leave request with repository.properties
+META-DATA: {"description": "holiday list with properties file ,using leavemanager.request"}
+	Given store '/get-location-holidays-list' into 'endpointUrl'
+	And  store 'POST' into 'method'
+    And  store '166e361750d29bee4c6e814dac0159c5' into 'tokenId'
+	When user requests "new.request"
+	Then response should have status code 200
+	Then  response should have status 'ok'
+END

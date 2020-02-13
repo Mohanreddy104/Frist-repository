@@ -1,0 +1,31 @@
+11:45:56 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+11:45:56 loading BDD file: resources/scenarios/Register.bdd
+11:45:56 total test found: 1
+11:45:56 
+
+Executing scenario: New tour register - use valid details and fill the registration form
+11:45:56 Test Data{file.encoding.pkg=sun.io, file.encoding=Cp1252, file.separator=\, user.country=US, user.script=null, user.dir=D:\OnbordingProject\Project\Selenium, user.variant=null, user.home=C:\Users\mohanreddy.p, user.timezone=Asia/Calcutta, user.name=Mohanreddy.p, user.language=en, selenium.screenshots.relative.path=../img, selenium.screenshots.dir=test-results/30_Aug_2019_06_15_AM/img, basedir=D:\OnbordingProject\Project\Selenium, os.arch=amd64, os.name=Windows 10, os.version=10.0, surefire.real.class.path=D:\OnbordingProject\Project\Selenium\test-results\surefire\surefirebooter7816668625093119011.jar, surefire.test.class.path=D:\OnbordingProject\Project\Selenium\target\test-classes, line.separator=
+, webdriver.edge.driver=./resources/drivers/MicrosoftWebDriver.exe, webdriver.ie.driver=./resources/drivers/IEDriverServer.exe, webdriver.gecko.driver=./resources/drivers/geckodriver.exe, webdriver.chrome.driver=./resources/drivers/chromedriver.exe, log4j.configuration=file:///D:\OnbordingProject\Project\Selenium/resources/log4j.properties, org.uncommons.reportng.xml-dialect=testng, org.uncommons.reportng.escape-output=false, json.report.dir=test-results/30_Aug_2019_06_15_AM/json, json.report.root.dir=test-results, test.results.dir=test-results/30_Aug_2019_06_15_AM/html, awt.toolkit=sun.awt.windows.WToolkit, outputDir=test-results/30_Aug_2019_06_15_AM, localRepository=C:\Users\mohanreddy.p\.m2\repository, data.register.user.firstname=Elena, data.register.user.lastname=Gilbert, data.register.user.phone=1234567890, data.register.user.email=abc@gmail.com, data.register.user.address=flat-007, baker street-202, west side, data.register.user.city=New York, data.register.user.state=New York, data.register.user.postalcode=12345, data.register.user.country=us, data.register.user.username=Elena123, data.register.user.password=Elena123, data.register.user.confirmpassword=Elena123, __index=1}
+11:45:56 pkg: com.qmetry.qaf.automation.step
+11:45:56 pkg: com.newtour.steps
+11:45:57 Found duplicate step to load [] with [lower] prority then []
+11:45:57 Found duplicate step to load [] with [lower] prority then []
+11:45:57 Found duplicate step to load [] with [lower] prority then []
+11:45:57 Found duplicate step to load [] with [lower] prority then []
+11:45:57 Found duplicate step to load [] with [lower] prority then []
+11:45:57 Found duplicate step to load [] with [lower] prority then []
+11:45:57 Invoking Teststep: Given User register
+11:45:57 Invoking Teststep: get {url} with arguments: [/]
+11:46:02 Completed Teststep: get {url} with arguments: [/]
+11:46:02 Completed Teststep: Given User register
+11:46:02 Invoking Teststep: When click on register button
+11:46:02 Invoking Teststep: click on {loc} with arguments: [register.register.link]
+11:46:03 Completed Teststep: click on {loc} with arguments: [register.register.link]
+11:46:03 Completed Teststep: When click on register button
+11:46:03 Invoking Teststep: And User enter with firstname '${data.register.user.firstname}' and lastname '${data.register.user.lastname}' and phone '${data.register.user.phone}' and email '${data.register.user.email}' and address '${data.register.user.address}' with arguments: [${data.register.user.firstname}, ${data.register.user.lastname}, ${data.register.user.phone}, ${data.register.user.email}, ${data.register.user.address}]
+11:46:03 Failure Teststep: And User enter with firstname 'Elena' and lastname 'Gilbert' and phone '1234567890' and email 'abc@gmail.com' and address 'flat-007, baker street-202, west side' with arguments: [${data.register.user.firstname}, ${data.register.user.lastname}, ${data.register.user.phone}, ${data.register.user.email}, ${data.register.user.address}]
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: register[${data.register.user.firstname}, ${data.register.user.lastname}, ${data.register.user.phone}, ${data.register.user.email}, ${data.register.user.address}]
+at 
+	at com.newtour.steps.InvalidRegisterStep.register(com.newtour.steps.InvalidRegisterStep:0)
+11:46:03 Completed Teststep: And User enter with firstname 'Elena' and lastname 'Gilbert' and phone '1234567890' and email 'abc@gmail.com' and address 'flat-007, baker street-202, west side' with arguments: [${data.register.user.firstname}, ${data.register.user.lastname}, ${data.register.user.phone}, ${data.register.user.email}, ${data.register.user.address}]
+11:46:03 Competed scenario: New tour register with status FAILURE

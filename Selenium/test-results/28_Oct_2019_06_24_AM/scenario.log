@@ -1,0 +1,47 @@
+11:54:08 scenario.file.loc[Ljava.lang.String;@1b68ddbd
+11:54:08 loading BDD file: ./resources/scenarios/RegisterCSV.bdd
+11:54:08 total test found: 1
+11:54:08 
+
+Executing scenario: New tour register - use valid details and fill the registration form
+11:54:08 Test Data{fname=mohan	, lname=reddy, phone=45556552256, email=djfbahdaj, address=ahdfah, __index=1}
+11:54:08 pkg: com.qmetry.qaf.automation.step
+11:54:08 pkg: com.newtour.steps
+11:54:08 Found duplicate step to load [] with [lower] prority then []
+11:54:08 Found duplicate step to load [] with [lower] prority then []
+11:54:08 Found duplicate step to load [] with [lower] prority then []
+11:54:08 Found duplicate step to load [] with [lower] prority then []
+11:54:08 Invoking Teststep: Given User register
+11:54:08 Invoking Teststep: get {url} with arguments: [/]
+11:54:13 Completed Teststep: get {url} with arguments: [/]
+11:54:13 Completed Teststep: Given User register
+11:54:13 Invoking Teststep: When click on register button
+11:54:13 Invoking Teststep: click on {loc} with arguments: [register.register.link]
+11:54:14 Completed Teststep: click on {loc} with arguments: [register.register.link]
+11:54:14 Completed Teststep: When click on register button
+11:54:14 Invoking Teststep: And User enter user data fname '${fname}' and lname '${lname}' and phone '${phone}' and email '${email}' and address '${address}' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+11:54:14 Failure Teststep: And User enter user data fname 'mohan	' and lname 'reddy' and phone '45556552256' and email 'djfbahdaj' and address 'ahdfah' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: registeruserData[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at 
+	at com.newtour.steps.RegisterCSVSteps.registeruserData(com.newtour.steps.RegisterCSVSteps:0)
+11:54:14 Completed Teststep: And User enter user data fname 'mohan	' and lname 'reddy' and phone '45556552256' and email 'djfbahdaj' and address 'ahdfah' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+11:54:14 Competed scenario: New tour register with status FAILURE
+11:54:14 
+
+Executing scenario: New tour register - use valid details and fill the registration form
+11:54:14 Test Data{fname=guest, lname=bkd, phone=1245635552, email=nfbdnkjfbd, address=dfdsjjdsh, __index=2}
+11:54:14 Invoking Teststep: Given User register
+11:54:14 Invoking Teststep: get {url} with arguments: [/]
+11:54:15 Completed Teststep: get {url} with arguments: [/]
+11:54:15 Completed Teststep: Given User register
+11:54:15 Invoking Teststep: When click on register button
+11:54:15 Invoking Teststep: click on {loc} with arguments: [register.register.link]
+11:54:16 Completed Teststep: click on {loc} with arguments: [register.register.link]
+11:54:16 Completed Teststep: When click on register button
+11:54:16 Invoking Teststep: And User enter user data fname '${fname}' and lname '${lname}' and phone '${phone}' and email '${email}' and address '${address}' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+11:54:16 Failure Teststep: And User enter user data fname 'guest' and lname 'bkd' and phone '1245635552' and email 'nfbdnkjfbd' and address 'dfdsjjdsh' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: registeruserData[${fname}, ${lname}, ${phone}, ${email}, ${address}]
+at 
+	at com.newtour.steps.RegisterCSVSteps.registeruserData(com.newtour.steps.RegisterCSVSteps:0)
+11:54:16 Completed Teststep: And User enter user data fname 'guest' and lname 'bkd' and phone '1245635552' and email 'nfbdnkjfbd' and address 'dfdsjjdsh' with arguments: [${fname}, ${lname}, ${phone}, ${email}, ${address}]
+11:54:16 Competed scenario: New tour register with status FAILURE
